@@ -1,0 +1,182 @@
+#register {
+  width: 100%;
+  height: 100%;
+}
+#register .el-tabs__nav-scroll {
+  margin-left: 0 !important;
+}
+#register .el-tabs__item {
+  font-size: 18px !important;
+}
+#register .el-tabs__active-bar {
+  height: 3px !important;
+}
+.register_content {
+  height: 620px;
+  width: 100%;
+  background: url(../../../src/assets/images/login/register-bg.png);
+  background-size: 100% 100%;
+}
+.register_outside {
+  width: 1200px;
+  margin: 0 auto;
+}
+.register_box {
+  width: 310px;
+  background: #fff;
+  float: right;
+  margin-right: 30px;
+  margin-top: 60px;
+  box-shadow: 0px 2px 20px 0px rgba(7, 10, 75, 0.1);
+  border-radius: 4px;
+  padding: 30px 40px;
+  padding-top: 10px;
+}
+.register_account,
+.register_password,
+.register_code,
+.register_phone_code {
+  line-height: 60px;
+  margin-top: 13px;
+  border-bottom: solid 1px #EDEDED !important;
+}
+.register_account input,
+.register_password input,
+.register_code input,
+.register_phone_code input {
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 200px;
+  padding-left: 8px;
+  font-size: 16px;
+  color: #333;
+  width: 100%;
+  border-radius: 0;
+  height: 60px;
+  line-height: 60px;
+}
+.register_account input::-webkit-input-placeholder,
+.register_password input::-webkit-input-placeholder,
+.register_code input::-webkit-input-placeholder,
+.register_phone_code input::-webkit-input-placeholder {
+  color: #ccc;
+  font-size: 12px;
+}
+.register_account:focus-within,
+.register_password:focus-within,
+.register_code:focus-within {
+  border-bottom-color: #337FE8 !important;
+}
+.register_password,
+.register_code {
+  margin-top: 0;
+}
+.register_code .phone_code {
+  float: left;
+  width: 50%;
+}
+.register_code .register_text,
+.register_tips {
+  color: #1A8AFA;
+  float: right;
+  margin-right: 16px;
+  font-size: 12px;
+  cursor: pointer;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 20px;
+  padding-left: 30px;
+  border-left: 1px solid #EDEDED;
+}
+.register_phone_code {
+  border-bottom: solid 1px #EDEDED !important;
+}
+.register_phone_code .el-input {
+  width: 50%;
+  float: left;
+  border-bottom: none !important;
+}
+.register_phone_code span {
+  float: right;
+  margin-top: 10px;
+}
+.register_phone_code:focus-within {
+  border-bottom-color: #337FE8 !important;
+}
+.register_rules {
+  margin-top: 30px;
+  font-size: 12px;
+  color: #9faec8;
+  margin-bottom: 18px;
+}
+.register_rules .el-checkbox {
+  margin-right: 5px;
+}
+.register_rules:hover {
+  cursor: pointer;
+  color: #1A8AFA;
+}
+.register_btn {
+  width: 310px;
+  height: 44px;
+  background: #1A8AFA;
+  color: #fff;
+  line-height: 44px;
+  text-align: center;
+  box-shadow: 0px 2px 20px 0px rgba(7, 10, 75, 0.1);
+  border-radius: 4px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.register_bottom {
+  text-align: center;
+}
+.register_bottom span {
+  color: #1A8AFA;
+  cursor: pointer;
+}
+.register_content .el-form-item {
+  margin-bottom: 0 !important;
+}
+.register_content .el-input,
+.register_content .el-input__inner {
+  border: none !important;
+}
+.register_content input:-webkit-autofill {
+  box-shadow: 0 0 0px 1000px white inset !important;
+}
+.agreement_content .content {
+  height: 344px;
+  overflow-y: scroll;
+}
+.agreement_content .content p {
+  font-size: 14px;
+  line-height: 40px;
+  color: #5B5B5B;
+  text-indent: 28px;
+}
+.my_cancle,
+.my_sure {
+  padding: 9px 16px !important;
+}
+.my_cancle {
+  background-color: #EEEEEE;
+  color: #BBBBBB;
+  border: none;
+}
+.el-button--primary {
+  background-color: #F07C7D;
+  color: #fff;
+  border: none;
+}
+.my_sure:hover {
+  background: #F07C7D;
+  border-color: #F07C7D;
+  color: #FFF;
+}
+.my_cancle:hover {
+  color: #BBBBBB;
+  border-color: none;
+  background-color: #EEEEEE;
+}

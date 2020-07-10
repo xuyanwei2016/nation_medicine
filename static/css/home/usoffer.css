@@ -1,0 +1,62 @@
+.mag-bot-44 {
+  margin-bottom: 44px;
+}
+.sub_rightLine {
+  width: 100%;
+}
+.useroffer_content {
+  box-sizing: border-box;
+}
+.useroffer_content .user_left {
+  width: 860px;
+  padding: 0 70px 50px 60px;
+  background-color: #fff;
+  float: left;
+}
+.useroffer_content .user_left .usoffer_title {
+  margin-top: 54px;
+  margin-bottom: 54px;
+  color: #2473D6;
+  font-size: 24px;
+}
+.useroffer_content .user_right {
+  width: 340px;
+  background-color: #FBFBFC;
+  float: left;
+}
+.useroffer_content .user_right .useroffer_know_tit {
+  color: #333333;
+  font-size: 20px;
+  margin-top: 64px;
+  margin-bottom: 34px;
+  text-align: center;
+}
+.useroffer_content .user_right .useroffer_know_content {
+  padding: 0 20px;
+  color: #A4A3A4;
+}
+.useroffer_content .user_right .useroffer_know_content .know_content_list {
+  color: #A4A3A4;
+  line-height: 24px;
+  width: 230px;
+  margin: 0 auto 20px;
+}
+.usoffer_form_wrap .el-textarea__inner {
+  height: 160px;
+}
+.usoffer_form_wrap .el-button {
+  padding: 12px 8px;
+  border-radius: 2px;
+  background-color: #357FE7;
+}
+.usoffer_form_wrap .el-form-item__label {
+  padding: 0 20px 0 0;
+}
+.usoffer_form_wrap .tip {
+  color: #888888;
+  margin-left: 10px;
+}
+.us_offer_del {
+  color: red;
+  cursor: pointer;
+}

@@ -1,0 +1,895 @@
+a{
+  color: #666666;
+}
+#app{
+  font-size: 14px;
+  background: #f5f5f5;
+  height: 100%;
+}
+
+.userIndex .el-input {
+  width: 330px;
+}
+
+.userIndex .el-input__inner {
+  border: none !important;
+  border-radius: 0px !important;
+}
+
+.userInfo{
+  height: 38px;
+  background-image: url(../../src/assets/images/homepage/header_bg.png);
+  .topCon{
+    width: 1200px;
+    height: 38px;
+    margin: 0 auto;
+    line-height: 38px;
+  }
+  .loginInfo{
+    float: right;
+    color: #3D6EE6;
+    cursor: pointer;
+    span{
+      margin: 5px;
+    }
+  }
+  .loginName{
+    float: right;
+    span{
+      float: left;
+      cursor: pointer;
+    }
+    img{
+      height: 30px;
+      width: 30px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-right:4px;
+      float: left;
+      margin-top: 2px;
+    }
+  }
+  .message{
+    float: right;
+    margin-right: 26px;
+    color: #666666;
+    cursor: pointer;
+    span{
+      margin-right: 26px;
+    }
+    img{
+      height: 16px;
+      width: auto;
+      margin-right: 5px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .index_message{
+      position: relative;
+      i{
+        position: absolute;
+        right:0;
+        top: 0;
+        height: 5px;
+        width: 5px;
+        border-radius: 50%;
+        background: red;
+      }
+    }
+  }
+}
+.banner::after{
+  padding: 0 !important;
+}
+.banner{
+  height: auto;
+  width: 100%;
+  height: 537px;
+  background-repeat: no-repeat;
+  background-size:  100%;
+  position: relative;
+  .banner_img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .bannerCon{
+    width: 1200px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    margin-left: -600px;
+    top: 0;
+    z-index: 100;
+  }
+  .searchBox{
+    margin-top: 15px;
+    background: #fff;
+    width: 100%;
+    ul li{
+      line-height:34px;
+      list-style: none;
+      color: #999999;
+      cursor: pointer;
+      &:first-child{
+        padding-top: 5px;
+      }
+      &:last-child{
+        padding-bottom: 5px;
+      }
+      &:hover{
+        color: #2473D6;
+      }
+    }
+  }
+  .logo{
+    position: absolute;
+    margin-top: 34px;
+  }
+  .search{
+    position: absolute;
+    right: 0;
+    top: 35px;
+    width: 364px;
+    background-image: url(../../src/assets/images/homepage/search.png);
+    background-size: 100% 100%;
+    width: 364px;
+    height: 40px;
+  }
+  .home_search {
+    width: 100%;
+    height: 26px;
+    background-color: #fff;
+    margin-top: 6px;
+  }
+  input{
+    outline: none;
+    border: none;
+    width: 330px;
+    height: 20px;
+    line-height: 19px;
+    padding-left: 6px;
+    display: inline-block;
+    color: #2473D6;
+    
+  }
+  .home_img {
+    cursor: pointer;
+  }
+  .searchIcon{
+    height: 16px;
+    widows: 16px;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+}
+.banner::after {
+  content: "";
+  display: block;
+  /*这里的padding =  height / width*/
+  // padding:15%;
+}
+.indexContent{
+  height: 570px;
+  width: 100%;
+  background-image: url(../../src/assets/images/homepage/main_bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  .natureCon{
+    width: 1200px;
+    margin: 0 auto;
+    height: 570px;
+  }
+  .nav{
+    height: 90px;
+  }
+  .headerText{
+    float: left;
+    font-size: 20px;
+    font-weight:bold;
+    color: #203F67;
+    position: relative;
+    height: 80px;
+    padding-left: 40px;
+    background-image: url(../../src/assets/images/homepage/border.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    width: 180px;
+    line-height: 90px;
+  }
+  .navText{
+    float: left;
+    width: 768px;
+    font-size: 16px;
+    overflow: hidden;
+    height: 90px;
+    line-height: 90px;
+    .hoverStyle{
+      color: #3D6EE6;
+    }
+    p{
+      display:inline;
+    }
+    img{
+      height: 16px;
+      width: 16px;
+      padding:  0 15px;
+      float: left;
+      margin-top: 37px;
+    }
+    span{
+      color: #333;
+      cursor: pointer;
+      float: left;
+    }
+  }
+  .nation{
+    float: right;
+    width: 100px;
+    background-image: url(../../src/assets/images/homepage/more.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    margin-top: 27px;
+    cursor: pointer;
+    span{
+      margin-left: 50px;
+      display: inline-block;
+      margin-top: 8px;
+      color: #2473D6;
+    }
+    &:hover{
+      background-image: url(../../src/assets/images/homepage/more_hover.png);
+    }
+  }
+  .conLeft{
+    float: left;
+    width: 558px;
+    height: 436px;;
+    background: #000;
+    img{
+      width: 100%;
+      height: 436px;
+      border: solid 5px #fff;
+      box-sizing: border-box;
+      box-shadow: #eee 0px 10px 10px;  
+    }
+  }
+  .conRight{
+    float: left;
+    margin-left: 20px;
+    .conTitle{
+      margin-top: 38px;
+      overflow: hidden;
+      display: inline-block;
+      background-image: url(../../src/assets/images/homepage/title.png) ;
+      background-repeat: no-repeat;
+      padding: 10px 60px;
+      background-size: 100% 100%;
+    }
+    .conInfo{
+      width: 570px;
+      height: 133px;
+      margin-top: 34px; 
+      line-height: 28px;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 5;
+      overflow: hidden;
+    }
+    .conPhoto{
+      margin-top: 32px;
+      margin-left: -108px;
+      overflow: hidden;
+      .conPhoto_list{
+        width:165px;
+        position: relative;
+        float: left;
+        height: 142px;
+        margin-right: 20px;
+        cursor: pointer;
+        &:last-child{
+          margin-right: 0;
+        }
+        &:hover{
+          img{
+            transform: scale(1.2);/*鼠标经过图片放大的倍数*/
+          }
+          p{
+            transform: scale(1.2);/*鼠标经过图片放大的倍数*/
+          }
+        }
+        p{
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width:165px;
+          text-align: center;
+          height: 30px;
+          line-height: 30px;
+          background: rgba(0,0,0,0.5);
+          color: #fff;
+          opacity: 0.8;
+          width: 100%;
+        }
+        span{
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          text-align: center;
+          height: 30px;
+          line-height: 30px;
+          text-align: center;
+          display: inline-block;
+          width: 100%;
+          color: #fff;
+        }
+        img{
+          width:165px;
+          height: 142px;
+          border: solid 3px #fff;
+          box-sizing: border-box;
+          box-shadow: #eee 0px 5px 5px;  
+          transition: all 0.5s;/*图片放大过程的时间*/
+        }
+      }
+      
+    }
+  }
+}
+.professor{
+  height: 513px;
+  background-image:  url(../../src/assets/images/homepage/professor_bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  .professorCon{
+    width: 1200px;
+    height: 513px;
+    margin: 0 auto;
+    .outline{
+      background: #fff;
+    }
+  }
+  .proNav{
+    height: 80px;
+    line-height: 80px;
+    background: #F5F2F1;
+    margin-top: 70px;
+    div{
+      width: 400px;
+      float: left;
+      text-align: center;
+      color: #666666;
+      font-size: 18px;
+      background-image:  url(../../src/assets/images/homepage/professor_title.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      cursor: pointer;
+      transition: all 0.5s;/*图片放大过程的时间*/
+    }
+    span{
+      display:block;
+      width: 100%;
+      height: 80px;
+    }
+    .doctor span,.case span,.recommend span{
+      background-image: url(../../src/assets/images/homepage/doctor.png);
+      background-repeat: no-repeat;
+      background-position: 30% 22.5px;
+    }
+    .case span{
+      background-image: url(../../src/assets/images/homepage/case.png);
+    }
+    .recommend span{
+      background-image: url(../../src/assets/images/homepage/recommend.png);
+    }
+    // .doctor:hover{
+    //   transform: scaleY(1.123);
+    //   background-image:  url(../../src/assets/images/homepage/professor_title_hover.png);
+    //   span{
+    //     background-image: url(../../src/assets/images/homepage/doctor_hover.png);
+    //     color: #2473D6;
+    //   }
+    // }
+    .hoverDoctorStyle{
+      transform: scaleY(1.123);
+      background-image:  url(../../src/assets/images/homepage/professor_title_hover.png);
+      object-fit: contain;
+      // object-fit: cover;
+      span{
+        background-image: url(../../src/assets/images/homepage/doctor_hover.png);
+        color: #2473D6;
+      }
+    }
+    // .case:hover{
+    //   transform: scaleY(1.123);
+    //   background-image:  url(../../src/assets/images/homepage/professor_title_hover.png);
+    //   span{
+    //     background-image: url(../../src/assets/images/homepage/case_hover.png);
+    //     color: #2473D6;
+    //   }
+    // }
+    .hoverCaseStyle{
+      transform: scaleY(1.123);
+      background-image:  url(../../src/assets/images/homepage/professor_title_hover.png);
+      span{
+        background-image: url(../../src/assets/images/homepage/case_hover.png);
+        color: #2473D6;
+      }
+    }
+    // .recommend:hover{
+    //   transform: scaleY(1.123);
+    //   background-image:  url(../../src/assets/images/homepage/professor_title_hover.png);
+    //   span{
+    //     background-image: url(../../src/assets/images/homepage/recommend_hover.png);
+    //     color: #2473D6;
+    //   }
+    // }
+    .hoverRecommendHover{
+      transform: scaleY(1.123);
+      background-image:  url(../../src/assets/images/homepage/professor_title_hover.png);
+      span{
+        background-image: url(../../src/assets/images/homepage/recommend_hover.png);
+        color: #2473D6;
+      }
+    }
+   
+  }
+ 
+  .proContent{
+    margin-top: 5px;
+    height: 300px;
+    background: #FEFEFE;
+    position: relative;
+  }
+  .index_left,.index_non_left{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left:15px;
+    top: 50%;
+    margin-top: -15px;
+    background-image: url(../../src/assets/images/homepage/left.png);
+    cursor: pointer;
+  }
+  .index_non_left{
+    background-image: url(../../src/assets/images/homepage/left_default.png);
+  }
+  .index_right,.index_non_right{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right:15px;
+    top: 50%;
+    margin-top: -15px;
+    background-image: url(../../src/assets/images/homepage/right.png);
+    cursor: pointer;
+  }
+  .index_non_right{
+    background-image: url(../../src/assets/images/homepage/right_default.png);
+  }
+  .proIntro{
+    width: 560px;
+    height: 100%;
+    float: left;
+    .image_box{
+      float: left;
+      position: relative;
+      // width: 150px;
+      p{
+        position: absolute;
+        height: 30px;
+        width: 150px;
+        left: 60px;
+        bottom: 0;
+        text-align: center;
+        background: rgba(36,115,214,0.8);
+        color: #fff;
+        line-height: 30px;
+      }
+    }
+    img{
+      height: 194px;
+      width: 150px;
+      margin-top: 48px;
+      margin-left: 60px;
+      float: left;
+    }
+    .right_img{
+      margin-left: 0;
+    }
+    .right{
+      float: left;
+      margin-left: 20px;
+      height: 100%;
+    }
+    .proName{
+      color: #333333;
+      font-size: 18px;
+      margin-top: 60px;
+      &:hover{
+        color: #4692FB;
+      }
+    }
+    .proEducation{
+      color: #999999;
+      margin: 20px 0;
+    }
+    p{
+      height: 90px;
+      color: #666666;
+      width: 320px;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 4;
+      overflow: hidden;
+      line-height: 22px;
+    }
+  }
+  .index_ebookList{
+    width: 216px;
+    height: 208px;
+    border-left: solid 1px #EBEBEB;
+    float: left;
+    text-align: center;
+    margin-top: 40px;
+    position: relative;
+    .imgBox{
+      min-height: 150px;
+    }
+    img{
+      width: 98px;
+      cursor: pointer;
+    }
+    p{
+      width: 182px;
+      margin-top: 20px;
+      color: #333333;
+      margin-left: 17px;
+      overflow:hidden; 
+      text-align: left;
+      cursor: pointer;
+    }
+    &:first-child{
+      border-left: none;
+      padding-left: 60px;
+      .ebook_hover{
+        left: 60px !important;
+      }
+    }
+    .ebook_hover{
+      width: 216px;
+      height: 118px;
+      background-color:rgba(255, 255, 255,0.9);
+      text-align: left;
+      padding-top: 100px;
+      position: absolute;
+      left: 0;
+      top: 0;
+      .article_name{
+        color: #333;
+        margin: 8px 16px;
+        font-size:14px;
+        line-height: 25px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+        cursor: pointer;
+      }
+      .article_author{
+        color: #999;
+        margin: 10px 16px;
+        overflow: hidden;
+        cursor: pointer;
+        .author_text{
+          color: #4692FB;
+          margin-right: 8px;
+          max-width: 80%;
+          overflow:hidden;
+          text-overflow:ellipsis;
+          white-space:nowrap
+        }
+        span{
+          float: left;
+        }
+      }
+      .article_price{
+        margin: 8px 14px;
+        color: #FA2846;
+        font-size:18px;
+        span{
+          font-size: 14px;
+          color: #666;
+          text-decoration: line-through;
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+  .listContent{
+    margin-top: 0;
+    padding-top: 30px;
+    overflow: hidden;
+    padding-left: 100px;
+  }
+  .listContent li{
+    float: left;
+    width: 40%;
+    line-height:40px;
+    height: 40px;
+    color:#666666;
+    background-image: url(../../src/assets/images/homepage/circle.png);
+    background-repeat: no-repeat;
+    background-position: 0 16px;
+    padding: 0 20px;
+    cursor: pointer;
+    margin-right: 5%;
+    &:hover{
+      a{
+        color: #2473D6;
+      }
+      color: #2473D6;
+    }
+    p{
+      float: left;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      white-space:nowrap;
+      width:80%;
+    }
+    span{
+      margin-left: 20px;
+      float: right;
+    }
+  }
+  .nation{
+    float: right;
+    width: 100px;
+    background-image: url(../../src/assets/images/homepage/more.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    cursor: pointer;
+    span{
+      margin-left: 50px;
+      display: inline-block;
+      margin-top: 8px;
+      color: #2473D6;
+    }
+    &:hover{
+      background-image: url(../../src/assets/images/homepage/more_hover.png);
+    }
+  }
+}
+.menu{
+  height: 300px;
+  background-image: url(../../src/assets/images/homepage/professor_content_bg.png);
+  background-size: 100% 100%;
+  padding-top: 50px;
+  .menuCon{
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+  }
+  .menuNav{
+    width: 180px;
+    height: 240px;
+    float: left;
+    cursor: pointer;
+    img{
+      height: 120px;
+      width: 120px;
+      display: block;
+      margin: 0 auto;
+      margin-top: 15px;
+    }
+    p{
+      color: #333333;
+      font-size: 18px;
+      margin-top: 42px;
+      text-align: center;
+    }
+    &:first-child{
+      margin-left: 20px;
+    }
+    &:hover{
+      background-image: url(../../src/assets/images/homepage/menuNav_hover.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+  }
+}
+.medicine{
+  height: 560px;
+  background-image: url(../../src/assets/images/homepage/medicine_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  .medicineCon{
+    width: 1200px;
+    height: 560px;
+    margin: 0 auto;
+  }
+  .medicineInfo{
+    width:500px;
+    height: 318px;
+    float: left;
+    margin-top: 56px;
+    background-image: url(../../src/assets/images/homepage/list_bg.png);
+    background-size:100% 100%;
+    color: #2473D6;
+    font-size: 24px;
+    padding: 30px;
+    padding-left: 52px;
+    position: relative;
+    ul{
+      color: #666666;
+      font-size: 16px;
+      margin-top: 40px;
+      padding-left: 0;
+    }
+    li{
+      height: 40px;
+      line-height: 40px;
+      overflow: hidden;
+      text-overflow:ellipsis;
+      white-space:nowrap;
+      background-image: url(../../src/assets/images/homepage/circle.png);
+      background-repeat: no-repeat;
+      background-position: 0 16px;
+      padding: 0 20px;
+      &:hover{
+        a{
+          color: #2473D6;
+        }
+        color: #2473D6;
+      }
+    }
+    .next{
+      position: absolute;
+      bottom:15px;
+      right:15px;
+      cursor: pointer;
+    }
+  }
+  .medicalInformation,.onlineConsultant,.examination{
+    float: left;
+    background-image: url(../../src/assets/images/homepage/medicalInformation.png);
+    background-size: 100% 100%;
+    height:220px;
+    width:300px;
+    margin-top: 56px;
+    margin-left:20px;
+    cursor: pointer;
+    p{
+      color: #2473D6;
+      font-size: 24px;
+      margin-bottom: 14px;
+    }
+    span{
+      color: #999;
+      margin-left: 40px;
+    }
+  }
+  .medicalInformation .medicineHover{
+    margin: 14px;
+    height: 161px;
+    width: 272px;
+    padding-top: 29px;
+    p{
+      margin-left: 28px;
+    }
+  }
+  .medicalInformation:hover{
+    .medicineHover{
+      background-image: url(../../src/assets/images/homepage/medicine_hover.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+  }
+  .onlineConsultant{
+    width: 264px;
+    height: 151px;
+    margin-top: 96px;
+    background-image: url(../../src/assets/images/homepage/onlineConsultant.png);
+    padding-top: 29px;
+    p{
+      margin-left: 28px;
+    }
+  }
+  .examination{
+    width: 374px;
+    height: 210px;
+    margin-top: 20px;
+    background-image: url(../../src/assets/images/homepage/examination.png);
+  }
+  .examination .medicineHover{
+    margin: 14px;
+    height: 153px;
+    width: 346px;
+    padding-top: 29px;
+    p{
+      margin-left: 28px;
+    }
+  }
+  .examination:hover{
+    .medicineHover{
+      background-image: url(../../src/assets/images/homepage/medicine_hover.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+  }
+}
+.footer{
+  height: 220px;
+  background-image: url(../../src/assets/images/homepage/footer_bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  .footerCon{
+    width: 1200px;
+    margin: 0 auto;
+    height: 220px;
+  }
+  .link{
+    height: 76px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    border-bottom: solid 1px #494949;
+    line-height: 76px;
+    font-size: 24px;
+    color: #333333;
+    cursor: pointer;
+    span{
+      margin: 0 25px;
+      font-size: 14px;
+    }
+    span:last-child{
+      margin-right: 0;
+    }
+    .line{
+      margin-left: 18px;
+      margin-right: 0;
+    }
+    img{
+      width: 6px;
+      height: 6px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+  .footerText{
+    text-align: center;
+    margin: 20px 0;
+    color:#333333;
+    cursor: pointer;
+    span{
+      display: inline-block;
+      margin:0 15px;
+    }
+    a{
+      color:#333333;
+    }
+  }
+  .indexText{
+    text-align: center;
+    margin: 20px 0;
+    color:#333333;
+    span{
+      margin-left: 30px;
+    }
+  }
+}
+.tips{
+  height: 39px;
+  background: #292929;
+  text-align: center;
+  color: #818181;
+  line-height: 39px;
+  font-size: 14px;
+}
+a{
+  text-decoration: none;
+}

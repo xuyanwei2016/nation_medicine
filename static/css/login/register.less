@@ -1,0 +1,210 @@
+#register{
+  width: 100%;
+  height: 100%;
+  .el-tabs__nav-scroll{
+    margin-left: 0 !important;
+  }
+  .el-tabs__item{
+    font-size:18px !important;
+  }
+  .el-tabs__active-bar{
+    height: 3px !important;
+  }
+}
+/*疫情专题 更改 5.7*/
+#register .register_content .el-tabs__item.is-active{color:#262b33}
+.register_content{
+  height: calc( 100vh - 320px);
+  width: 100%;
+  background: url(../../../src/assets/images/login/register-bg.png);
+  /*background: url(../../../src/assets/images/epidemic/denglu-bg.png);*/
+  background-size: 100% 100%;
+}
+.register_outside{
+  width: 1200px;
+  margin: 0 auto;
+}
+.register_box{
+  width: 310px;
+  background: #fff;
+  float: right;
+  margin-right: 30px;
+  margin-top: 60px;
+  box-shadow:0px 2px 20px 0px rgba(7,10,75,0.1);
+  border-radius:4px;
+  padding: 30px 40px;
+  padding-top:10px;
+  /*防疫 更改 4.27*/
+  .is-active{
+    font-size:18px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(38,43,51,1);
+  }
+  /*.el-tabs__active-bar{
+    background-color: #751D1C;
+  }*/
+}
+.register_account,.register_password,.register_code,.register_phone_code{
+  line-height: 60px;
+  margin-top: 13px;
+  border-bottom:solid 1px #EDEDED !important;
+
+  input{
+    border:none;
+    outline: none;
+    height: 40px;
+    width: 200px;
+    padding-left: 8px;
+    font-size: 16px;
+    color: #333;
+    width: 100%;
+    border-radius: 0;
+    height: 60px;
+    line-height: 60px;
+  }
+  input::-webkit-input-placeholder {
+    color: #ccc;
+    font-size: 12px;
+   }
+}
+.register_account:focus-within,.register_password:focus-within,.register_code:focus-within{
+  border-bottom-color: #337FE8 !important;
+}
+.register_password,.register_code{
+  margin-top: 0;
+}
+.register_code .phone_code{
+  float: left;
+  width: 50%;
+}
+.register_code .register_text,.register_tips{
+  color: #1A8AFA;
+  float: right;
+  margin-right: 16px;
+  font-size:12px;
+  cursor: pointer;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 20px;
+  padding-left: 30px;
+  border-left: 1px solid #EDEDED;
+}
+.register_phone_code{
+  border-bottom:solid 1px #EDEDED !important;
+
+  .el-input{
+    width: 50%;
+    float: left;
+    border-bottom: none !important;
+  }
+ span{
+   float: right;
+   margin-top: 10px;
+ }
+}
+.register_phone_code:focus-within{
+  border-bottom-color: #337FE8 !important;
+}
+// .register_tip{
+//   height: 56px;
+//   line-height: 56px;
+//   .register_error_tips{
+//     color:#F40303;
+//   }
+//   .register_forget_password{
+//     color: #AAB9D2;
+//     float: right;
+//   }
+// }
+.register_rules{
+  margin-top: 30px;
+  font-size:12px;
+  color:rgba(159,174,200,1);
+  margin-bottom: 18px;
+  .el-checkbox{
+    margin-right: 5px;
+  }
+}
+.register_rules:hover{
+  cursor: pointer;
+  /*疫情专题更改 4.30*/
+  /*color: #751D1C;*/
+  color: #1A8AFA
+}
+.register_btn{
+  width: 310px;
+  height: 44px;
+  /*疫情专题更改 4.30*/
+  background:#1A8AFA;
+  /*background:#9E7B4B;*/
+  color: #fff;
+  line-height: 44px;
+  text-align: center;
+  box-shadow:0px 2px 20px 0px rgba(7,10,75,0.1);
+  border-radius:4px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.register_bottom{
+  text-align: center;
+  span{/*疫情专题更改 4.30*/
+
+    color: #1A8AFA;
+    /*color: #751D1C;*/
+    cursor: pointer;
+  }
+}
+.register_content{
+  .el-form-item{
+    margin-bottom: 0 !important;
+  }
+  .el-input,.el-input__inner{
+    border: none !important;
+  }
+  input:-webkit-autofill { box-shadow: 0 0 0px 1000px white inset !important;}
+}
+// .demo-ruleForm{
+//   .el-input{
+//     border-bottom:solid 1px #EDEDED !important;
+//   }
+//   .el-input:focus-within{
+//     border-bottom-color: #337FE8 !important;
+//   }
+// }
+.agreement_content{
+  .content{
+    height: 344px;
+    overflow-y: scroll;
+    p{
+      font-size: 14px;
+      line-height: 40px;
+      color: #5B5B5B;
+      text-indent: 28px
+    }
+  }
+
+}
+.my_cancle,.my_sure{
+  padding: 9px 16px !important;
+}
+.my_cancle{
+  background-color:#EEEEEE;
+  color: #BBBBBB;
+  border: none
+}
+.el-button--primary{
+    background-color: #F07C7D;
+    color: #fff;
+    border:none
+  }
+  .my_sure:hover {
+    background: #F07C7D;
+    border-color: #F07C7D;
+    color: #FFF;
+}
+.my_cancle:hover {
+  color: #BBBBBB;
+  border-color: none;
+  background-color: #EEEEEE;
+}

@@ -1,0 +1,159 @@
+.mongolia_article_content {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  background-color: #F4F5F9;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+.mongolia_article_content .mongolia_article_rightbg {
+  width: 208px;
+  height: 418px;
+  background-image: url(../../../src/assets/images/medical/emblazonry-right.png);
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+.mongolia_article_content .mongolia_article_leftbg {
+  width: 301px;
+  height: 622px;
+  background-image: url(../../../src/assets/images/medical/emblazonry-left.png);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.mongolia_article_content .mongolia_article_wrap {
+  width: 1200px;
+  background-color: #F4F5F9;
+  margin: 0 auto;
+}
+.mongolia_article_content .mongolia_article_wrap .mongolia_article_location {
+  margin: 20px auto;
+}
+.mongolia_article_content .mongolia_article_wrap .mongolia_article_location span:nth-child(3) {
+  color: #1F77F2;
+}
+.mongolia_article_content .mongolia_article_wrap .mongolia_article_main {
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+  background: url(../../../src/assets/images/medical/right-line.png) repeat-x;
+  background-color: #fff;
+  overflow: hidden;
+}
+.mongolia_article_content .mongolia_article_wrap .mongolia_article_main .mongolia_article_list {
+  padding: 30px 20px;
+  border-bottom: 1px solid #EDEDED;
+}
+.mongolia_article_content .mongolia_article_wrap .mongolia_article_main .mongolia_article_list .whole_conTitle {
+  font-size: 18px;
+  cursor: pointer;
+}
+.mongolia_article_content .mongolia_article_wrap .mongolia_article_main .mongolia_article_list .whole_conTitle:hover {
+  color: #1F77F2;
+}
+.mongolia_article_content .mongolia_article_wrap .mongolia_article_main .mongolia_article_list .whole_conText {
+  color: #666666;
+  line-height: 24px;
+  margin: 18px 0 30px;
+  word-break: break-all;
+}
+.mongolia_article_content .mongolia_article_wrap .mongolia_article_main .mongolia_article_list .whole_conTip {
+  overflow: hidden;
+}
+.mongolia_article_content .mongolia_article_wrap .mongolia_article_main .mongolia_article_list .whole_conTip .whole_contipLeft {
+  float: left;
+}
+.mongolia_article_content .mongolia_article_wrap .mongolia_article_main .mongolia_article_list .whole_conTip .whole_contipLeft .whole_free {
+  color: #13B0B9;
+  font-size: 16px;
+  margin-top: -2px;
+  margin-right: 25px;
+}
+.mongolia_article_content .mongolia_article_wrap .mongolia_article_main .mongolia_article_list .whole_conTip .whole_contipLeft .whole_realPrice {
+  color: #FC9224;
+  font-size: 16px;
+  margin-right: 20px;
+}
+.mongolia_article_content .mongolia_article_wrap .mongolia_article_main .mongolia_article_list .whole_conTip .whole_contipLeft .whole_free,
+.mongolia_article_content .mongolia_article_wrap .mongolia_article_main .mongolia_article_list .whole_conTip .whole_contipLeft .whole_realPrice,
+.mongolia_article_content .mongolia_article_wrap .mongolia_article_main .mongolia_article_list .whole_conTip .whole_contipLeft .whole_price,
+.mongolia_article_content .mongolia_article_wrap .mongolia_article_main .mongolia_article_list .whole_conTip .whole_contipLeft .whole_discount,
+.mongolia_article_content .mongolia_article_wrap .mongolia_article_main .mongolia_article_list .whole_conTip .whole_contipLeft .whole_fax,
+.mongolia_article_content .mongolia_article_wrap .mongolia_article_main .mongolia_article_list .whole_conTip .whole_contipLeft .whole_source,
+.mongolia_article_content .mongolia_article_wrap .mongolia_article_main .mongolia_article_list .whole_conTip .whole_contipLeft .whole_price_count {
+  float: left;
+}
+.mongolia_article_content .mongolia_article_wrap .mongolia_article_main .mongolia_article_list .whole_conTip .whole_contipLeft .whole_price {
+  color: #F44D4A;
+  font-size: 16px;
+}
+.mongolia_article_content .mongolia_article_wrap .mongolia_article_main .mongolia_article_list .whole_conTip .whole_contipLeft .whole_discount {
+  margin: 2px 18px 0 12px;
+  color: #999999;
+  text-decoration: line-through;
+}
+.mongolia_article_content .mongolia_article_wrap .mongolia_article_main .mongolia_article_list .whole_conTip .whole_contipLeft .whole_fax {
+  margin-right: 30px;
+  margin-left: 15px;
+  margin-top: 2px;
+  color: #999999;
+}
+.mongolia_article_content .mongolia_article_wrap .mongolia_article_main .mongolia_article_list .whole_conTip .whole_contipLeft .whole_fax img {
+  margin-right: 6px;
+}
+.mongolia_article_content .mongolia_article_wrap .mongolia_article_main .mongolia_article_list .whole_conTip .whole_contipLeft .whole_source {
+  color: #999999;
+  margin-top: 2px;
+}
+.mongolia_article_content .mongolia_article_wrap .mongolia_article_main .mongolia_article_list .whole_conTip .whole_contipLeft .whole_source .whole_source_blue {
+  cursor: pointer;
+  color: #1F77F2;
+}
+.mongolia_article_content .mongolia_article_wrap .mongolia_article_main .mongolia_article_list .whole_conTip .whole_contRightcar {
+  width: 90px;
+  height: 28px;
+  border: 1px solid #337FE8;
+  border-radius: 14px;
+  text-align: center;
+  line-height: 28px;
+  color: #337FE8;
+  float: right;
+  cursor: pointer;
+}
+.mongolia_article_content .mongolia_article_wrap .mongolia_article_main .mongolia_article_list .whole_conTip .whole_contRight {
+  float: right;
+  width: 90px;
+  height: 28px;
+  border-radius: 14px;
+  border: 1px solid #2DB3BB;
+  color: #2DB3BB;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+}
+.mongolia_article_content .mongolia_article_wrap .mongolia_article_main .mongolia_article_list .whole_conTip .whole_contRight i {
+  display: inline-block;
+  width: 18px;
+  height: 12px;
+  background: url(../../../src/assets/images/home/eye1.png) no-repeat;
+}
+.mongolia_article_content .mongolia_article_wrap .mongolia_article_main .mongolia_article_list .whole_conTip .whole_contRight:hover {
+  background-color: #2DB3BB;
+  color: #fff;
+}
+.mongolia_article_content .mongolia_article_wrap .mongolia_article_main .mongolia_article_list .whole_conTip .whole_contRight:hover i {
+  background: url(../../../src/assets/images/home/eye2.png) no-repeat;
+}
+.mongolia_article_content .mongolia_article_wrap .mongolia_article_main .mongolia_article_list .whole_conTip .whole_contGray {
+  float: right;
+  width: 90px;
+  height: 28px;
+  border-radius: 14px;
+  border: 1px solid #B7BAC6;
+  color: #B7BAC6;
+  text-align: center;
+  line-height: 28px;
+}

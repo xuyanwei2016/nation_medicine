@@ -1,0 +1,320 @@
+#orderdetails {
+  width: 100%;
+}
+.orderdetails_content {
+  width: 1200px;
+  margin: 0 auto 20px;
+}
+.orderdetails_content .text {
+  color: #606266;
+}
+.orderdetails_top {
+  height: 270px;
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: row;
+  background: #fff;
+  border-top: 3px solid #BBBBBB;
+  padding-top: 22px;
+  padding-bottom: 10px;
+}
+.orderdetails_content .line_bg {
+  width: 5px;
+  height: 265px;
+  background: url(../../../src/assets/images/personal-center/order_right.png) no-repeat center;
+}
+.orderdetails_left {
+  width: 340px;
+  padding: 20px 0;
+  text-align: center;
+}
+.orderdetails_left .orderdetails_code {
+  font-size: 14px;
+  color: #989898;
+}
+.orderdetails_left .orderdetails_status,
+.orderdetails_left .orderdetails_statusText {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e93233;
+  margin-top: 45px;
+  margin-bottom: 25px;
+}
+.orderdetails_left .orderdetails_statusText {
+  color: #4692FB;
+}
+.orderdetails_left .orderdetails_btn {
+  height: 30px;
+  width: 100px;
+  line-height: 30px;
+  text-align: center;
+  color: #E93233;
+  border: solid 1px #E93233;
+  border-radius: 3px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.orderdetails_left .orderdetails_tips {
+  color: #989898;
+}
+.orderdetails_left .orderdetails_tips span {
+  color: #1F77F2;
+  cursor: pointer;
+}
+.orderdetails_right {
+  flex: 1;
+  padding-top: 22px;
+  padding-left: 80px;
+  position: relative;
+}
+.orderdetails_right .orderdetails_text {
+  color: #AAAAAA;
+}
+.orderdetails_right .waiting_payment {
+  color: #03B19F;
+  font-size: 12px;
+  position: absolute;
+  font-weight: bold;
+  top: -10px;
+  left: 25%;
+  margin-left: -17px;
+}
+.orderdetails_right .orderdetails_status {
+  width: 664px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /*针对元素本身向左以及向上移动50%*/
+}
+.orderdetails_right .orderdetails_status .orderdetails_img {
+  height: 50px;
+  width: 50px;
+  float: left;
+}
+.orderdetails_right .orderdetails_status .orderdetails_line {
+  width: 240px;
+  float: left;
+  margin: 22px 8px;
+}
+.orderdetails_right .orderdetails_status .orderdetails_text {
+  margin-top: 5px;
+}
+.orderdetails_right .orderdetails_status .orderdetails_text .fir,
+.orderdetails_right .orderdetails_status .orderdetails_text .sec,
+.orderdetails_right .orderdetails_status .orderdetails_text .third {
+  float: left;
+  width: 220px;
+  color: #333333;
+}
+.orderdetails_right .orderdetails_status .orderdetails_text .fir p,
+.orderdetails_right .orderdetails_status .orderdetails_text .sec p,
+.orderdetails_right .orderdetails_status .orderdetails_text .third p {
+  color: #999999;
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+.orderdetails_right .orderdetails_status .orderdetails_text .fir p:first-child,
+.orderdetails_right .orderdetails_status .orderdetails_text .sec p:first-child,
+.orderdetails_right .orderdetails_status .orderdetails_text .third p:first-child {
+  margin-top: 20px;
+}
+.orderdetails_right .orderdetails_status .orderdetails_text .fir p:last-child,
+.orderdetails_right .orderdetails_status .orderdetails_text .sec p:last-child,
+.orderdetails_right .orderdetails_status .orderdetails_text .third p:last-child {
+  margin-left: 6px;
+}
+.orderdetails_right .orderdetails_status .orderdetails_text .sec {
+  text-align: center;
+}
+.orderdetails_right .orderdetails_status .orderdetails_text .sec p:last-child {
+  margin-right: 4px;
+}
+.orderdetails_right .orderdetails_status .orderdetails_text .third {
+  text-align: right;
+  width: 210px;
+  padding-right: 10px;
+}
+.orderdetails_right .orderdetails_status .orderdetails_text .third p {
+  margin-right: -10px;
+}
+.orderdetails_right .orderdetails_status .orderdetails_text .third p:last-child {
+  margin-right: -4px;
+}
+.orderdetails_right .orderdetails_status .orderdetails_text .not_complate {
+  color: #999999;
+}
+.orderdetails_bottom {
+  background: #fff;
+  padding: 40px;
+  margin-top: 20px;
+}
+.orderdetails_moneyinfo {
+  border-bottom: 1px dotted #E0E0E0;
+  overflow: hidden;
+  padding-bottom: 14px;
+}
+.orderdetails_moneyinfo .moneyinfo_title {
+  margin: 20px 0;
+  font-weight: bold;
+}
+.orderdetails_moneyinfo .moneyinfo_text span {
+  margin-left: 60px;
+}
+.orderdetails_moneyinfo .moneyinfo_text span:first-child {
+  margin-left: 0;
+}
+.orderdetails_moneyinfo .moneyinfo_text i {
+  color: #E4292A;
+  font-style: normal;
+}
+.orderdetails_moneyinfo .moneyinfo_text .moneyinfo_type {
+  color: #1F77F2;
+}
+.orderdetails_moneyinfo .moneyinfo_invoicetext span {
+  margin-left: 30px;
+}
+.orderdetails_moneyinfo .moneyinfo_invoicetext span:first-child {
+  margin-left: 0;
+}
+.orderdetails_goodsinfo {
+  border-bottom: 1px dotted #E0E0E0;
+  overflow: hidden;
+}
+.orderdetails_goodsinfo .moneyinfo_title {
+  margin: 20px 0;
+  font-weight: bold;
+}
+.orderdetails_table {
+  height: 36px;
+  line-height: 36px;
+  background: #F5F5F5;
+  width: 100%;
+  margin-top: 22px;
+  color: #454545;
+  font-weight: bold;
+}
+.orderdetails_table .orderdetails_info {
+  width: 480px;
+  text-align: center;
+  float: left;
+}
+.orderdetails_table .orderdetails_price,
+.orderdetails_table .orderdetails_num {
+  width: 160px;
+  text-align: center;
+  float: left;
+}
+.orderdetails_table .orderdetails_status {
+  width: 150px;
+  text-align: center;
+  float: left;
+}
+.orderdetails_table .set {
+  float: left;
+  text-align: center;
+  width: 160px;
+}
+.orderdetails_list {
+  height: 130px;
+  border-bottom: 1px solid #EEEEEE;
+}
+.orderdetails_list:last-child {
+  border-bottom: 0;
+}
+.orderdetails_list:hover {
+  background: #F9F9FC;
+}
+.orderdetails_list .orderdetails_image {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-left: 12px;
+  margin-right: 20px;
+  margin-top: 15px;
+  background: #000;
+}
+.orderdetails_list img {
+  max-width: 100px;
+  max-height: 100px;
+}
+.orderdetails_list .orderdetails_name,
+.orderdetails_list .orderdetails_money,
+.orderdetails_list .orderdetails_num,
+.orderdetails_list .orderdetails_total,
+.orderdetails_list .orderdetails_reviewbtn {
+  display: inline-block !important;
+  vertical-align: middle;
+  color: #333333;
+  line-height: 130px;
+}
+.orderdetails_list .orderdetails_name {
+  margin-right: 210px;
+  line-height: 20px;
+  width: 154px;
+}
+.orderdetails_list .orderdetails_nameType {
+  display: inline-block !important;
+  vertical-align: middle;
+  color: #333333;
+  width: 274px;
+  margin-right: 210px;
+  margin-left: 12px;
+}
+.orderdetails_list .orderdetails_money {
+  margin-right: 64px;
+  min-width: 100px;
+  text-align: center;
+}
+.orderdetails_list .orderdetails_num {
+  min-width: 100px;
+  text-align: center;
+  margin-right: 20px;
+}
+.orderdetails_list .orderdetails_total {
+  margin-right: 20px;
+  text-align: center;
+  min-width: 160px;
+}
+.orderdetails_list .orderdetails_reviewbtn {
+  height: 30px;
+  width: 92px;
+  color: #1F77F2;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.orderdetails_list .orderdetails_reviewbtn:hover {
+  color: #fff;
+  background: #1F77F2;
+}
+.orderdetails_totalText {
+  background: #fff;
+  padding-bottom: 20px;
+  padding-right: 40px;
+  overflow: hidden;
+}
+.orderdetails_totalText .ordertails_text {
+  line-height: 20px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  clear: both;
+  overflow: hidden;
+}
+.orderdetails_totalText p {
+  float: right;
+  width: 170px;
+  text-align: right;
+}
+.orderdetails_totalText span {
+  float: right;
+  width: 80px;
+  text-align: right;
+}
+.orderdetails_totalText .total_text {
+  color: #E4292A;
+}
+.orderdetails_totalText .ordertails_money {
+  font-size: 18px;
+  font-weight: 900;
+}

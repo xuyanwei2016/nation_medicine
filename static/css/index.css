@@ -1,0 +1,867 @@
+a {
+  color: #666666;
+}
+#app {
+  font-size: 14px;
+  background: #f5f5f5;
+  height: 100%;
+}
+.userIndex .el-input {
+  width: 330px;
+}
+.userIndex .el-input__inner {
+  border: none !important;
+  border-radius: 0px !important;
+}
+.userInfo {
+  height: 38px;
+  background-image: url(../../src/assets/images/homepage/header_bg.png);
+}
+.userInfo .topCon {
+  width: 1200px;
+  height: 38px;
+  margin: 0 auto;
+  line-height: 38px;
+}
+.userInfo .loginInfo {
+  float: right;
+  color: #3D6EE6;
+  cursor: pointer;
+}
+.userInfo .loginInfo span {
+  margin: 5px;
+}
+.userInfo .loginName {
+  float: right;
+}
+.userInfo .loginName span {
+  float: left;
+  cursor: pointer;
+}
+.userInfo .loginName img {
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 4px;
+  float: left;
+  margin-top: 2px;
+}
+.userInfo .message {
+  float: right;
+  margin-right: 26px;
+  color: #666666;
+  cursor: pointer;
+}
+.userInfo .message span {
+  margin-right: 26px;
+}
+.userInfo .message img {
+  height: 16px;
+  width: auto;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.userInfo .message .index_message {
+  position: relative;
+}
+.userInfo .message .index_message i {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background: red;
+}
+.banner::after {
+  padding: 0 !important;
+}
+.banner {
+  height: auto;
+  width: 100%;
+  height: 537px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+.banner .banner_img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.banner .bannerCon {
+  width: 1200px;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  margin-left: -600px;
+  top: 0;
+  z-index: 100;
+}
+.banner .searchBox {
+  margin-top: 15px;
+  background: #fff;
+  width: 100%;
+}
+.banner .searchBox ul li {
+  line-height: 34px;
+  list-style: none;
+  color: #999999;
+  cursor: pointer;
+}
+.banner .searchBox ul li:first-child {
+  padding-top: 5px;
+}
+.banner .searchBox ul li:last-child {
+  padding-bottom: 5px;
+}
+.banner .searchBox ul li:hover {
+  color: #2473D6;
+}
+.banner .logo {
+  position: absolute;
+  margin-top: 34px;
+}
+.banner .search {
+  position: absolute;
+  right: 0;
+  top: 35px;
+  background-image: url(../../src/assets/images/homepage/search.png);
+  background-size: 100% 100%;
+  width: 364px;
+  height: 40px;
+}
+.banner .home_search {
+  width: 100%;
+  height: 26px;
+  background-color: #fff;
+  margin-top: 6px;
+}
+.banner input {
+  outline: none;
+  border: none;
+  width: 330px;
+  height: 20px;
+  line-height: 19px;
+  padding-left: 6px;
+  display: inline-block;
+  color: #2473D6;
+}
+.banner .home_img {
+  cursor: pointer;
+}
+.banner .searchIcon {
+  height: 16px;
+  widows: 16px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.banner::after {
+  content: "";
+  display: block;
+  /*这里的padding =  height / width*/
+}
+.indexContent {
+  height: 570px;
+  width: 100%;
+  background-image: url(../../src/assets/images/homepage/main_bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.indexContent .natureCon {
+  width: 1200px;
+  margin: 0 auto;
+  height: 570px;
+}
+.indexContent .nav {
+  height: 90px;
+}
+.indexContent .headerText {
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  color: #203F67;
+  position: relative;
+  height: 80px;
+  padding-left: 40px;
+  background-image: url(../../src/assets/images/homepage/border.png);
+  background-repeat: no-repeat;
+  background-size: 200px;
+  width: 180px;
+  line-height: 90px;
+}
+.indexContent .navText {
+  float: left;
+  width: 768px;
+  font-size: 16px;
+  overflow: hidden;
+  height: 90px;
+  line-height: 90px;
+}
+.indexContent .navText .hoverStyle {
+  color: #3D6EE6;
+}
+.indexContent .navText p {
+  display: inline;
+}
+.indexContent .navText img {
+  height: 16px;
+  width: 16px;
+  padding: 0 15px;
+  float: left;
+  margin-top: 37px;
+}
+.indexContent .navText span {
+  color: #333;
+  cursor: pointer;
+  float: left;
+}
+.indexContent .nation {
+  float: right;
+  width: 100px;
+  background-image: url(../../src/assets/images/homepage/more.png);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  margin-top: 27px;
+  cursor: pointer;
+}
+.indexContent .nation span {
+  margin-left: 50px;
+  display: inline-block;
+  margin-top: 8px;
+  color: #2473D6;
+}
+.indexContent .nation:hover {
+  background-image: url(../../src/assets/images/homepage/more_hover.png);
+}
+.indexContent .conLeft {
+  float: left;
+  width: 558px;
+  height: 436px;
+  background: #000;
+}
+.indexContent .conLeft img {
+  width: 100%;
+  height: 436px;
+  border: solid 5px #fff;
+  box-sizing: border-box;
+  box-shadow: #eee 0px 10px 10px;
+}
+.indexContent .conRight {
+  float: left;
+  margin-left: 20px;
+}
+.indexContent .conRight .conTitle {
+  margin-top: 38px;
+  overflow: hidden;
+  display: inline-block;
+  background-image: url(../../src/assets/images/homepage/title.png);
+  background-repeat: no-repeat;
+  padding: 10px 60px;
+  background-size: 100% 100%;
+}
+.indexContent .conRight .conInfo {
+  width: 570px;
+  height: 133px;
+  margin-top: 34px;
+  line-height: 28px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  overflow: hidden;
+}
+.indexContent .conRight .conPhoto {
+  margin-top: 32px;
+  margin-left: -108px;
+  overflow: hidden;
+}
+.indexContent .conRight .conPhoto .conPhoto_list {
+  width: 165px;
+  position: relative;
+  float: left;
+  height: 142px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.indexContent .conRight .conPhoto .conPhoto_list:last-child {
+  margin-right: 0;
+}
+.indexContent .conRight .conPhoto .conPhoto_list:hover img {
+  transform: scale(1.2);
+  /*鼠标经过图片放大的倍数*/
+}
+.indexContent .conRight .conPhoto .conPhoto_list:hover p {
+  transform: scale(1.2);
+  /*鼠标经过图片放大的倍数*/
+}
+.indexContent .conRight .conPhoto .conPhoto_list p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 165px;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  opacity: 0.8;
+  width: 100%;
+}
+.indexContent .conRight .conPhoto .conPhoto_list span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  color: #fff;
+}
+.indexContent .conRight .conPhoto .conPhoto_list img {
+  width: 165px;
+  height: 142px;
+  border: solid 3px #fff;
+  box-sizing: border-box;
+  box-shadow: #eee 0px 5px 5px;
+  transition: all 0.5s;
+  /*图片放大过程的时间*/
+}
+.professor {
+  height: 513px;
+  background-image: url(../../src/assets/images/homepage/professor_bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.professor .professorCon {
+  width: 1200px;
+  height: 513px;
+  margin: 0 auto;
+}
+.professor .professorCon .outline {
+  background: #fff;
+}
+.professor .proNav {
+  height: 80px;
+  line-height: 80px;
+  background: #F5F2F1;
+  margin-top: 70px;
+}
+.professor .proNav div {
+  width: 400px;
+  float: left;
+  text-align: center;
+  color: #666666;
+  font-size: 18px;
+  background-image: url(../../src/assets/images/homepage/professor_title.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+  transition: all 0.5s;
+  /*图片放大过程的时间*/
+}
+.professor .proNav span {
+  display: block;
+  width: 100%;
+  height: 80px;
+}
+.professor .proNav .doctor span,
+.professor .proNav .case span,
+.professor .proNav .recommend span {
+  background-image: url(../../src/assets/images/homepage/doctor.png);
+  background-repeat: no-repeat;
+  background-position: 30% 22.5px;
+}
+.professor .proNav .case span {
+  background-image: url(../../src/assets/images/homepage/case.png);
+}
+.professor .proNav .recommend span {
+  background-image: url(../../src/assets/images/homepage/recommend.png);
+}
+.professor .proNav .hoverDoctorStyle {
+  transform: scaleY(1.123);
+  background-image: url(../../src/assets/images/homepage/professor_title_hover.png);
+  object-fit: contain;
+}
+.professor .proNav .hoverDoctorStyle span {
+  background-image: url(../../src/assets/images/homepage/doctor_hover.png);
+  color: #2473D6;
+}
+.professor .proNav .hoverCaseStyle {
+  transform: scaleY(1.123);
+  background-image: url(../../src/assets/images/homepage/professor_title_hover.png);
+}
+.professor .proNav .hoverCaseStyle span {
+  background-image: url(../../src/assets/images/homepage/case_hover.png);
+  color: #2473D6;
+}
+.professor .proNav .hoverRecommendHover {
+  transform: scaleY(1.123);
+  background-image: url(../../src/assets/images/homepage/professor_title_hover.png);
+}
+.professor .proNav .hoverRecommendHover span {
+  background-image: url(../../src/assets/images/homepage/recommend_hover.png);
+  color: #2473D6;
+}
+.professor .proContent {
+  margin-top: 5px;
+  height: 300px;
+  background: #FEFEFE;
+  position: relative;
+}
+.professor .index_left,
+.professor .index_non_left {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  margin-top: -15px;
+  background-image: url(../../src/assets/images/homepage/left.png);
+  cursor: pointer;
+}
+.professor .index_non_left {
+  background-image: url(../../src/assets/images/homepage/left_default.png);
+}
+.professor .index_right,
+.professor .index_non_right {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  margin-top: -15px;
+  background-image: url(../../src/assets/images/homepage/right.png);
+  cursor: pointer;
+}
+.professor .index_non_right {
+  background-image: url(../../src/assets/images/homepage/right_default.png);
+}
+.professor .proIntro {
+  width: 560px;
+  height: 100%;
+  float: left;
+}
+.professor .proIntro .image_box {
+  float: left;
+  position: relative;
+}
+.professor .proIntro .image_box p {
+  position: absolute;
+  height: 30px;
+  width: 150px;
+  left: 60px;
+  bottom: 0;
+  text-align: center;
+  background: rgba(36, 115, 214, 0.8);
+  color: #fff;
+  line-height: 30px;
+}
+.professor .proIntro img {
+  height: 194px;
+  width: 150px;
+  margin-top: 48px;
+  margin-left: 60px;
+  float: left;
+}
+.professor .proIntro .right_img {
+  margin-left: 0;
+}
+.professor .proIntro .right {
+  float: left;
+  margin-left: 20px;
+  height: 100%;
+}
+.professor .proIntro .proName {
+  color: #333333;
+  font-size: 18px;
+  margin-top: 60px;
+}
+.professor .proIntro .proName:hover {
+  color: #4692FB;
+}
+.professor .proIntro .proEducation {
+  color: #999999;
+  margin: 20px 0;
+}
+.professor .proIntro p {
+  height: 90px;
+  color: #666666;
+  width: 320px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  line-height: 22px;
+}
+.professor .index_ebookList {
+  width: 216px;
+  height: 208px;
+  border-left: solid 1px #EBEBEB;
+  float: left;
+  text-align: center;
+  margin-top: 40px;
+  position: relative;
+}
+.professor .index_ebookList .imgBox {
+  min-height: 150px;
+}
+.professor .index_ebookList img {
+  width: 98px;
+  cursor: pointer;
+}
+.professor .index_ebookList p {
+  width: 182px;
+  margin-top: 20px;
+  color: #333333;
+  margin-left: 17px;
+  overflow: hidden;
+  text-align: left;
+  cursor: pointer;
+}
+.professor .index_ebookList:first-child {
+  border-left: none;
+  padding-left: 60px;
+}
+.professor .index_ebookList:first-child .ebook_hover {
+  left: 60px !important;
+}
+.professor .index_ebookList .ebook_hover {
+  width: 216px;
+  height: 118px;
+  background-color: rgba(255, 255, 255, 0.9);
+  text-align: left;
+  padding-top: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.professor .index_ebookList .ebook_hover .article_name {
+  color: #333;
+  margin: 8px 16px;
+  font-size: 14px;
+  line-height: 25px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  cursor: pointer;
+}
+.professor .index_ebookList .ebook_hover .article_author {
+  color: #999;
+  margin: 10px 16px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.professor .index_ebookList .ebook_hover .article_author .author_text {
+  color: #4692FB;
+  margin-right: 8px;
+  max-width: 80%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.professor .index_ebookList .ebook_hover .article_author span {
+  float: left;
+}
+.professor .index_ebookList .ebook_hover .article_price {
+  margin: 8px 14px;
+  color: #FA2846;
+  font-size: 18px;
+}
+.professor .index_ebookList .ebook_hover .article_price span {
+  font-size: 14px;
+  color: #666;
+  text-decoration: line-through;
+  margin-left: 5px;
+}
+.professor .listContent {
+  margin-top: 0;
+  padding-top: 30px;
+  overflow: hidden;
+  padding-left: 100px;
+}
+.professor .listContent li {
+  float: left;
+  width: 40%;
+  line-height: 40px;
+  height: 40px;
+  color: #666666;
+  background-image: url(../../src/assets/images/homepage/circle.png);
+  background-repeat: no-repeat;
+  background-position: 0 16px;
+  padding: 0 20px;
+  cursor: pointer;
+  margin-right: 5%;
+}
+.professor .listContent li:hover {
+  color: #2473D6;
+}
+.professor .listContent li:hover a {
+  color: #2473D6;
+}
+.professor .listContent li p {
+  float: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 80%;
+}
+.professor .listContent li span {
+  margin-left: 20px;
+  float: right;
+}
+.professor .nation {
+  float: right;
+  width: 100px;
+  background-image: url(../../src/assets/images/homepage/more.png);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+  cursor: pointer;
+}
+.professor .nation span {
+  margin-left: 50px;
+  display: inline-block;
+  margin-top: 8px;
+  color: #2473D6;
+}
+.professor .nation:hover {
+  background-image: url(../../src/assets/images/homepage/more_hover.png);
+}
+.menu {
+  height: 300px;
+  background-image: url(../../src/assets/images/homepage/professor_content_bg.png);
+  background-size: 100% 100%;
+  padding-top: 50px;
+}
+.menu .menuCon {
+  width: 1200px;
+  height: 300px;
+  margin: 0 auto;
+}
+.menu .menuNav {
+  width: 180px;
+  height: 240px;
+  float: left;
+  cursor: pointer;
+}
+.menu .menuNav img {
+  height: 120px;
+  width: 120px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.menu .menuNav p {
+  color: #333333;
+  font-size: 18px;
+  margin-top: 42px;
+  text-align: center;
+}
+.menu .menuNav:first-child {
+  margin-left: 20px;
+}
+.menu .menuNav:hover {
+  background-image: url(../../src/assets/images/homepage/menuNav_hover.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.medicine {
+  height: 560px;
+  background-image: url(../../src/assets/images/homepage/medicine_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.medicine .medicineCon {
+  width: 1200px;
+  height: 560px;
+  margin: 0 auto;
+}
+.medicine .medicineInfo {
+  width: 500px;
+  height: 318px;
+  float: left;
+  margin-top: 56px;
+  background-image: url(../../src/assets/images/homepage/list_bg.png);
+  background-size: 100% 100%;
+  color: #2473D6;
+  font-size: 24px;
+  padding: 30px;
+  padding-left: 52px;
+  position: relative;
+}
+.medicine .medicineInfo ul {
+  color: #666666;
+  font-size: 16px;
+  margin-top: 40px;
+  padding-left: 0;
+}
+.medicine .medicineInfo li {
+  height: 40px;
+  line-height: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  background-image: url(../../src/assets/images/homepage/circle.png);
+  background-repeat: no-repeat;
+  background-position: 0 16px;
+  padding: 0 20px;
+}
+.medicine .medicineInfo li:hover {
+  color: #2473D6;
+}
+.medicine .medicineInfo li:hover a {
+  color: #2473D6;
+}
+.medicine .medicineInfo .next {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+.medicine .medicalInformation,
+.medicine .onlineConsultant,
+.medicine .examination {
+  float: left;
+  background-image: url(../../src/assets/images/homepage/medicalInformation.png);
+  background-size: 100% 100%;
+  height: 220px;
+  width: 300px;
+  margin-top: 56px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.medicine .medicalInformation p,
+.medicine .onlineConsultant p,
+.medicine .examination p {
+  color: #2473D6;
+  font-size: 24px;
+  margin-bottom: 14px;
+}
+.medicine .medicalInformation span,
+.medicine .onlineConsultant span,
+.medicine .examination span {
+  color: #999;
+  margin-left: 40px;
+}
+.medicine .medicalInformation .medicineHover {
+  margin: 14px;
+  height: 161px;
+  width: 272px;
+  padding-top: 29px;
+}
+.medicine .medicalInformation .medicineHover p {
+  margin-left: 28px;
+}
+.medicine .medicalInformation:hover .medicineHover {
+  background-image: url(../../src/assets/images/homepage/medicine_hover.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.medicine .onlineConsultant {
+  width: 264px;
+  height: 151px;
+  margin-top: 96px;
+  background-image: url(../../src/assets/images/homepage/onlineConsultant.png);
+  padding-top: 29px;
+}
+.medicine .onlineConsultant p {
+  margin-left: 28px;
+}
+.medicine .examination {
+  width: 374px;
+  height: 210px;
+  margin-top: 20px;
+  background-image: url(../../src/assets/images/homepage/examination.png);
+}
+.medicine .examination .medicineHover {
+  margin: 14px;
+  height: 153px;
+  width: 346px;
+  padding-top: 29px;
+}
+.medicine .examination .medicineHover p {
+  margin-left: 28px;
+}
+.medicine .examination:hover .medicineHover {
+  background-image: url(../../src/assets/images/homepage/medicine_hover.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.footer {
+  height: 220px;
+  background-image: url(../../src/assets/images/homepage/footer_bg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.footer .footerCon {
+  width: 1200px;
+  margin: 0 auto;
+  height: 220px;
+}
+.footer .link {
+  height: 76px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border-bottom: solid 1px #494949;
+  line-height: 76px;
+  font-size: 24px;
+  color: #333333;
+  cursor: pointer;
+}
+.footer .link span {
+  margin: 0 25px;
+  font-size: 14px;
+}
+.footer .link span:last-child {
+  margin-right: 0;
+}
+.footer .link .line {
+  margin-left: 18px;
+  margin-right: 0;
+}
+.footer .link img {
+  width: 6px;
+  height: 6px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer .footerText {
+  text-align: center;
+  margin: 20px 0;
+  color: #333333;
+  cursor: pointer;
+}
+.footer .footerText span {
+  display: inline-block;
+  margin: 0 15px;
+}
+.footer .footerText a {
+  color: #333333;
+}
+.footer .indexText {
+  text-align: center;
+  margin: 20px 0;
+  color: #333333;
+}
+.footer .indexText span {
+  margin-left: 30px;
+}
+.tips {
+  height: 39px;
+  background: #292929;
+  text-align: center;
+  color: #818181;
+  line-height: 39px;
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,377 @@
+ul,ol,dl,dt,dd,p,h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.invoice_title {
+width: 100%;
+height: 60px;
+background: #fff;
+line-height: 60px;
+margin-bottom: 8px;
+span {
+    font-size:20px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    margin-left: 26px;
+}
+}
+
+.invoice_substance {
+  min-height: 828px;
+box-sizing: border-box;
+width: 100%;
+background: #fff;
+padding: 26px 28px 26px 26px;
+.invoice_tip {
+    width:926px;
+    height:86px;
+    background:rgba(255,253,238,1);
+    border:1px solid #F9E5B0;
+    padding-left: 21px;
+    padding-top: 16px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    .invoice_tipTitle {
+        display: inline-block;
+        width:60px;
+        height:12px;
+        font-size:14px;
+        font-family:MicrosoftYaHei-Bold;
+        font-weight:bold;
+        color:rgba(255,102,0,1);
+    }
+    .invoice_tipContent {
+        margin: 0;
+        padding: 0;
+        width:639px;
+        height:13px;
+        font-size:14px;
+        font-family:MicrosoftYaHei;
+        font-weight:400;
+        color:rgba(255,102,0,1);
+        margin-top: 10px;
+    }
+}
+
+.invoice_info {
+    .invoice_infoTitle {
+        width:926px;
+        height:36px;
+        line-height: 36px;
+        background:rgba(245,245,245,1);
+        margin-bottom: 10px;
+        ul {
+            margin: 0;
+            padding: 0;
+            width:684px;
+            height:12px;
+            font-size:14px;
+            font-family:MicrosoftYaHei-Bold;
+            font-weight:bold;
+            color:rgba(69,69,69,1);
+            float: right;
+            margin-right: 50px;
+            li {
+                height: 100%;
+                list-style: none;
+                float: left;
+                &:nth-child(2) {
+                    margin: 0 106px 0 194px;
+                }
+                &:nth-child(3) {
+                    margin-right: 94px;
+                }
+                &:nth-child(4) {
+                    margin-right: 92px;
+                }
+            }
+        }
+    }
+
+    .invoice_infoContent {
+        .info_con_title {
+            width:926px;
+            height:32px;
+            background:rgba(251,251,251,1);
+            border:1px solid rgba(238,238,238,1);
+            box-sizing: border-box;
+            span {
+                display: inline-block;
+                height:12px;
+                font-size:12px;
+                font-family:MicrosoftYaHei;
+                font-weight:400;
+                color:rgba(170,170,170,1);
+                line-height:32px;
+                margin-left: 13px;
+            }
+        }
+
+        .info_con_content {
+            width: 926px;
+            box-sizing: border-box;
+            border-left: 1px solid rgba(238,238,238,1);
+            border-right: 1px solid rgba(238,238,238,1);
+            border-bottom: 1px solid rgba(238,238,238,1);
+            margin-bottom: 10px;
+            overflow: hidden;
+            position: relative;//lili
+            .info_con_left {
+                width: 535px;
+                // height: 250px;//Lili修改的高度
+                border-right: 1px solid rgba(238,238,238,1);
+                float: left;
+                .info_con_c1 {
+                    width: 535px;
+                    height: 124px;
+                    box-sizing: border-box;
+                    padding: 12px 0 12px 26px;
+                    border-bottom: 1px solid rgba(238,238,238,1);//Lili修改的
+                    &:last-child {
+                        border-bottom: none;//Lili修改的
+                    }
+                    li {
+                        list-style: none;
+                        float: left;
+                        &:nth-child(2) {
+                            span {
+                                display: inline-block;
+                                &:first-child {
+                                    // width:154px;
+                                    height:34px;
+                                    font-size:14px;
+                                    font-family:MicrosoftYaHei;
+                                    font-weight:400;
+                                    color:rgba(51,51,51,1);
+                                    line-height:22px;
+                                    // margin: 26px 0 36px 34px;
+                                }
+                                &:nth-child(2) {
+                                    display: inline-block;
+                                    // width:4px;
+                                    height:11px;
+                                    font-size:14px;
+                                    font-family:MicrosoftYaHei;
+                                    font-weight:400;
+                                    color:rgba(51,51,51,1);
+                                    line-height:40px;
+                                    // margin-left: 160px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .info_con_right {
+                // height: 250px;Lili修改的高度
+                //line-height: 250px;
+                text-align: center;
+                float: left;
+                widows: 388px;
+                position: absolute;
+                height: 100%;
+                right: 0;
+                p {
+                    // height: 250px;Lili修改的高度
+                    float: left;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    &:first-child {
+                        width: 138px;
+                        border-right: 1px solid rgba(238,238,238,1);
+                    }
+                    &:nth-child(2) {
+                        width: 120px;
+                        border-right: 1px solid rgba(238,238,238,1);
+                        cursor: pointer;
+                    }
+                    &:nth-child(3) {
+                        width: 128px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        &:nth-child(3) {
+            .info_con_content {
+                // height: 104px;
+                .info_con_left {
+                    height: 100%;
+                    .info_con_c2 {
+                        width: 535px;
+                        height: 100%;
+                        box-sizing: border-box;
+                        padding: 15px 0px 24px 13px;
+                        li {
+                            list-style: none;
+                            float: left;
+                            &:nth-child(2) {
+                                span {
+                                    display: inline-block;
+                                    &:first-child {
+                                        width:154px;
+                                        height:34px;
+                                        font-size:14px;
+                                        font-family:MicrosoftYaHei;
+                                        font-weight:400;
+                                        color:rgba(51,51,51,1);
+                                        line-height:22px;
+                                        margin: 10px 0 0 20px;
+                                    }
+                                    &:nth-child(2) {
+                                        display: inline-block;
+                                        width:4px;
+                                        height:11px;
+                                        font-size:14px;
+                                        font-family:MicrosoftYaHei;
+                                        font-weight:400;
+                                        color:rgba(51,51,51,1);
+                                        line-height:40px;
+                                        margin-left: 160px;
+                                    }
+                                }
+
+                            }
+                        }
+                    }
+                }
+
+                .info_con_right {
+                    height: 100%;
+                    p {
+                        height: 100%;
+                        line-height: 103px;
+
+                        &:nth-child(3) {
+                            a {
+                                display: inline-block;
+                                line-height: 30px;
+                                width: 74px;
+                                height: 30px;
+                                border: 1px solid rgba(244,73,74,1);
+                                border-radius: 3px;
+                                color: rgba(244,73,74,1);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &:nth-child(4) {
+            .info_con_content {
+                height: 124px;
+                .info_con_left {
+                    height: 100%;
+                    // padding: 28px 0 36px 17px;
+                    box-sizing: border-box;
+                    .info_leftTitle {
+                        width:329px;
+                        height:60px;
+                        font-size:14px;
+                        font-family:MicrosoftYaHei;
+                        font-weight:400;
+                        color:rgba(51,51,51,1);
+                        line-height:20px;
+                        float: left;
+                    }
+                    p {
+                        float: left;
+                    }
+                }
+
+                .info_con_right {
+                    height: 100%;
+                    line-height: 124px;
+                    p {
+                        height: 100%;
+                    }
+                }
+            }
+        }
+
+        &:nth-child(5) {
+            .info_con_content {
+                height: 124px;
+                .info_con_left {
+                    height: 100%;
+                    .info_con_c1 {
+                        width: 535px;
+                        box-sizing: border-box;
+                        padding: 12px 0 12px 26px;
+                        
+                        li {
+                            list-style: none;
+                            float: left;
+                            &:nth-child(2) {
+                                span {
+                                    display: inline-block;
+                                    &:first-child {
+                                        width:154px;
+                                        height:34px;
+                                        font-size:14px;
+                                        font-family:MicrosoftYaHei;
+                                        font-weight:400;
+                                        color:rgba(51,51,51,1);
+                                        line-height:22px;
+                                        margin: 26px 0 36px 34px;
+                                    }
+                                    &:nth-child(2) {
+                                        display: inline-block;
+                                        width:4px;
+                                        height:11px;
+                                        font-size:14px;
+                                        font-family:MicrosoftYaHei;
+                                        font-weight:400;
+                                        color:rgba(51,51,51,1);
+                                        line-height:40px;
+                                        margin-left: 160px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .info_con_right {
+                    height: 100%;
+                    line-height: 124px;
+                    p {
+                        height: 100%;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+
+}
+
+p.info_con_make {
+    color: #03B19F;
+    cursor: pointer;
+}
+
+p.info_con_not {
+    color: #FC9322;
+    cursor: pointer;
+}
+
+
+

@@ -1,0 +1,367 @@
+
+.userother_content_bg{
+    background-color: #f4f5f9;
+    background-repeat: no-repeat;
+    background-size: 100% 440px;
+    padding-bottom:20px;
+    position: relative;
+    z-index: 9;
+    .userother_content_bg_banner{
+        background-image: url(../../../src/assets/images/medical/userother_bg.png);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 100%;
+        height: 440px;
+        top:0;
+        z-index: -1;
+    }
+    .userother_content_bg_flower1{
+        content:"";
+        position: absolute;
+        top:352px;
+        right: 0;
+        width: 208px;
+        height: 418px;
+        background-image: url(../../../src/assets/images/medical/emblazonry-right.png);
+        background-repeat: no-repeat;
+        z-index: -2;
+    }
+    .userother_content_bg_flower2{
+        content:"";
+        position: absolute;
+        left:0px;
+        bottom: 0px;
+        width: 301px;
+        height: 622px;
+        background-image: url(../../../src/assets/images/medical/emblazonry-left.png);
+        background-repeat: no-repeat;
+        z-index: -2;
+    }
+}
+.userother_wrap{
+    width: 1200px;
+    margin: 0px auto;
+    padding-top:24px;
+    .share_box{
+        display: none;
+    }
+    .share_btn:hover{
+        .share_box{
+            display: block;
+        }
+    }
+    .userother_icon{
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        margin-top:6px;
+        margin-right: 7px;
+        vertical-align: top;
+        &.build_icon{
+            background:url(../../../src/assets/images/medical/userother_build_icon.png) no-repeat;
+        };
+        &.doctor_icon{
+            background:url(../../../src/assets/images/medical/userother_doctor_icon.png) no-repeat;
+        }
+    }
+    .userother_top{
+        padding:35px;
+        min-height: 440px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        background-color: #fff;
+        position: relative;
+        &.bg{
+            height: 440px;
+            background-image: url()
+        }
+        .userother_top_opt{
+            position: absolute;
+            top:35px;
+            right: 30px;
+            .userother_opt_list{
+                float: left;
+                color: #606266;
+                .el-button{
+                    margin-right: 10px;
+                }
+                &:nth-child(1){
+                    margin-top:6px;
+                    margin-right: 10px
+                }
+            }
+        }
+        .userother_top_pic{
+            margin-top: 28px;
+            margin-right: 40px;
+            float: left;
+            .userother_top_img{
+                box-shadow: 10px 10px 0px #E3E3E3;
+                width: 230px;
+                height: 285px;
+                cursor: pointer;
+            }
+        }
+        .userother_top_more{
+            position: absolute;
+            bottom: 34px;
+            right:47px;
+            width: 64px;
+            height: 24px;
+            color: #FC9224;
+            font-size:14px;
+            background:url(../../../src/assets/images/medical/userother_btn_bg.png);
+            cursor: pointer;
+        }
+        .userother_top_content{
+            margin-top:46px;
+            padding-left: 270px;
+            .userother_top_content_tit{
+                font-size: 22px;
+                margin-bottom: 24px;
+                color:#333333
+            }
+            .userother_top_content_tag{
+                .el-tag{
+                    background:rgba(248,248,248,1);
+                    border:none;
+                    line-height: 34px;
+                    color: #666666;
+                    margin-right: 12px;
+                    margin-bottom: 27px;
+                    .el-icon-view{
+                        margin-right: 7px;
+                    }
+                }
+
+            }
+            .userother_top_content_text{
+                color: #666666;
+                line-height: 28px;
+                p {
+                    width: 856px;
+                    // height: 100px;
+                    word-wrap:break-word
+                }
+            }
+        }
+
+    }
+    .userother_content{
+        overflow: hidden;
+        .userother_content_block{
+            border-bottom:1px solid #EDEDED;
+            padding-bottom: 22px;
+            padding-top:30px;
+            .userother_content_block_tit{
+                color: #333;
+                font-size: 18px;
+                margin-bottom: 19px;
+                cursor: pointer;
+                &:hover {
+                    color: #2473D6;
+                }
+            }
+            .userother_content_block_text{
+                line-height: 24px;
+                color: #666666;
+                margin-bottom:26px;
+            }
+            .userother_content_block_tag .el-tag{
+                border:none;
+                background-color: #EEF4FD;
+                line-height: 20px;
+            }
+        }
+        .userother_content_wrap {
+            padding: 32px 0 26px;
+            border-bottom: 1px solid #EDEDED;
+            overflow: hidden;
+            .userother_content_img {
+                float: left;
+                margin-right: 24px;
+                img {
+                    width: 100px;
+                    height: 136px;
+                }
+               
+            }
+            .userother_content_text {
+                float: left;
+                .userother_content_block_tit {
+                    color: #333333;
+                    font-size: 18px;
+                    margin-bottom: 18px;
+                    cursor: pointer;
+                    &:hover {
+                        color: #1F77F2;
+                    }
+                }
+                .userother_content_block_text {
+                    width: 630px;
+                    display:-webkit-box;
+                    -webkit-line-clamp:3;
+                    -webkit-box-orient:vertical;
+                    overflow:hidden;
+                    color: #666666;
+                    line-height:24px;
+                }
+            }
+            .userother_content_block_top {
+                overflow: hidden;
+                margin-bottom: 25px;
+            }
+            .userother_content_block_img , .userother_content_block_title  {
+                float: left;
+            }
+            
+            .userother_content_block_title {
+                color: #333;
+                font-size: 18px;
+                margin-left: 10px;
+                cursor: pointer;
+                width: 628px;
+            }
+            .userother_content_block_time {
+                float: right;
+                color: #B6B6B6;
+                font-size: 12px;
+            }
+            .userother_content_block_bot {
+                overflow: hidden;
+                .userother_contnt_block_img, .userother_content_block_syno {
+                    float: left;
+                }
+                .userother_content_block_syno {
+                    width: 766px;
+                    display:-webkit-box;
+                    -webkit-line-clamp:3;
+                    -webkit-box-orient:vertical;
+                    overflow:hidden;
+                    margin-left: 10px;
+                    color: #666;
+                }
+            }
+            .userother_content_block_ask {
+                float: right;
+                cursor: pointer;
+            }
+        }
+        .userother_content_left{
+            width: 876px;
+            padding:16px 36px;
+            float: left;
+            box-sizing: border-box;
+            background-color: #fff;
+            .el-tabs__content {
+                margin-top: -42px;
+                padding-top: 42px;
+            }
+            .my_contribute {
+                float: right;
+                margin-top: -42px;
+                cursor: pointer;
+                width: 80px;
+                height: 26px;
+                color: #7F8597;
+                border: 1px solid #E3E6F0;
+                border-radius: 10px;
+                text-align: center;
+                line-height: 26px;
+                font-size: 14px;
+                font-family: JYaoTi;
+                &:hover {
+                    color: #1F77F2;
+                    border-color: #1F77F2;
+                }
+            }
+            .el-tabs__nav-wrap::after{
+                background-color: transparent;
+                height: 6px;
+                background-image: url(../../../src/assets/images/medical/userother_left-tab-line.png);
+            }
+            .el-tabs__nav-scroll{
+                margin-left: 0px;
+                position: relative;
+                .el-tabs__active-bar{
+                    display: none
+                }
+                .el-tabs__item{
+                    font-size: 18px;
+                }
+                .el-tabs__item:hover {
+                    color: #2473D6;
+                    cursor: pointer;
+                }
+            }
+            .el-tabs__item.is-active{
+                color:#2473D6;
+                font-weight:bold;
+
+            }
+
+        }
+        .userother_content_right{
+            width: 310px;
+            float: right;
+            background-color: #fff;
+            .userother_content_right_tit{
+                color:#454545;
+                font-size: 16px;
+                padding:19px 20px;
+                position: relative;
+                &:after{
+                    content:"";
+                    height:4px;
+                    position: absolute;
+                    bottom:0;
+                    left:0;
+                    width: 100%;
+                    background-image: url(../../../src/assets/images/medical/userother-right-tit-line.png)
+
+                }
+            }
+            .userother_content_right_cont {
+                padding: 0 20px 310px;
+            }
+            .userother_content_block{
+                display: flex;
+                .userother_content_block_pic{
+                    padding-right: 15px;
+                    img {
+                        width: 82px;
+                        height: 106px;
+                        cursor: pointer;
+                    }
+                }
+                .userother_content_block_tit{
+                    color:#555;
+                    font-size: 14px;
+                    font-weight: bold;
+                    margin-bottom: 10px;
+                    &:hover{
+                        color: #409EFF;
+                    }
+                }
+                .userother_content_block_text{
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 3;
+                    -webkit-box-orient: vertical;
+                    width: 168px;
+                    height: 68px;
+                }
+            }
+        }
+    }
+}
+.userother-footer .footerCon{
+    height: 192px !important;
+    overflow: hidden;
+}
+.pad-top-60{
+    padding-top:60px;
+}
+

@@ -1,0 +1,127 @@
+
+.note_title {
+    background: #fff;
+    height: 60px;
+    line-height: 60px;
+    font-size:20px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    padding-left: 26px;
+    margin-bottom: 8px;
+}
+.note_list {
+    background: #fff;
+    height: auto;
+    padding: 12px 28px 12px 26px;
+    box-sizing: border-box;
+    .note_search {
+        height: 45px;
+        border-bottom: 1px solid rgba(245,245,245,1);
+        .search_right {
+            line-height: 32px;
+            float: right;
+            margin-right: 8px;
+            a {
+                text-decoration: underline;
+                &:nth-child(2) {
+                    margin: 0 18px 0 20px;
+                    color: #04C0AC;
+                }
+            }
+        }
+    }
+
+    .note_wrap {
+        min-height: 500px;
+    }
+
+    .note_article {
+        height: auto;
+        border-bottom: 1px solid rgba(245,245,245,1);
+        overflow: hidden;
+        cursor: pointer;
+        .note_checkbox , .note_articlecon {
+            float: left;
+        }
+        .note_checkbox {
+            margin-top: 89px;
+        }
+        
+        .note_articlecon {
+            margin-left: 37px;
+            margin-top: -79px;
+        }
+
+        .note_articlecon1 {
+            color: #666;
+            width: 100%;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+        }
+
+        .note_tip {
+            margin-top: 10px;
+            width:842px;
+            height:102px;
+            background:rgba(246,246,246,1);
+            border-radius:4px;
+            padding-left: 20px;
+            padding-top: 10px;
+            padding-right: 17px;
+            p {
+                &:first-child {
+                    width:75px;
+                    height:12px;
+                    font-size:14px;
+                    font-family:MicrosoftYaHei-Bold;
+                    font-weight:bold;
+                    color:rgba(68,68,68,1);
+                    line-height:24px;
+                    margin-bottom: 13px;
+                }
+                &:nth-child(2) {
+                    color: #666;
+                    width: 100%;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 2;
+                    overflow: hidden;
+                }
+            }
+        }
+
+        .note_articlefot {
+            margin-top: 25px;
+            padding-bottom: 35px;
+            .note_source {
+                float: left;
+                .note_mongolia {
+                    color: #1F77F2;
+                    cursor: pointer;
+                }
+            }
+
+            .note_time {
+                float: right;
+                .note_time_bot_del , .note_time_bot_time {
+                    float: left;
+                    color: #999;
+                }
+
+                .note_time_bot_del {
+                    margin-right: 40px;
+                    cursor: pointer;
+                }
+
+                .note_time_bot_time {
+                    margin-top: 2px;
+                }
+            }
+        }
+
+    }
+}
+

@@ -1,0 +1,467 @@
+img {
+  vertical-align: middle;
+}
+::-webkit-input-placeholder {
+  /*Webkit browsers*/
+  color: #DBDBDB;
+  font-size: 16px;
+}
+:-moz-placeholder {
+  /*Mozilla Firefox 4 to 8*/
+  color: #DBDBDB;
+  font-size: 16px;
+}
+::moz-placeholder {
+  /*Mozilla Firefox 19+*/
+  color: #DBDBDB;
+  font-size: 16px;
+}
+:-ms-input-placeholder {
+  /*Internet Explorer 10+*/
+  color: #DBDBDB;
+  font-size: 16px;
+}
+body {
+  background: #faf9f9;
+  width: 100%;
+  height: 100%;
+}
+#answer input {
+  border: none;
+  outline: none;
+}
+#answer {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  background: #fffefe;
+}
+.answer_header {
+  width: 100%;
+  height: 34px;
+  line-height: 34px;
+  background: #F7FAFD;
+}
+.answer_login {
+  width: 1200px;
+  height: 34px;
+  line-height: 34px;
+  margin: 0 auto;
+  text-align: right;
+}
+.answer_lo {
+  float: right;
+}
+.answer_lo .answer_line {
+  width: 1px;
+  height: 16px;
+  display: inline-block;
+  margin: 4px 8px -3px;
+  background: #8399AF;
+}
+.answer_head {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+.answer_info,
+.answer_car,
+.answer_img,
+.answer_out {
+  cursor: pointer;
+  float: left;
+  color: #8399AF;
+}
+.answer_logo {
+  width: 100%;
+  height: 112px;
+  background: url(../../../src/assets/images/login/top-bg.png);
+}
+.answer_log {
+  width: 1200px;
+  height: 100px;
+  line-height: 100px;
+  margin: 0 auto;
+}
+.answer_left {
+  float: left;
+  position: relative;
+}
+.answer_left .nation_line {
+  display: inline-block;
+  width: 1px;
+  height: 35px;
+  background-color: #2473D6;
+  position: absolute;
+  top: 34px;
+  left: 284px;
+}
+.answer_left .nation_select {
+  width: 97px;
+  height: 37px;
+  line-height: 37px;
+  background-image: url(../../../src/assets/images/medical/nation-border.png);
+  position: absolute;
+  top: 34px;
+  left: 294px;
+  text-align: center;
+  color: #4686D7;
+}
+.answer_left .nation_select img {
+  cursor: pointer;
+}
+.answer_right {
+  float: right;
+  width: 364px;
+  height: 42px;
+  line-height: 40px;
+  margin-top: 30px;
+  background: url(../../../src/assets/images/login/search.png);
+}
+.answer_select {
+  float: left;
+  padding-left: 6px;
+  color: #395A99;
+  font-weight: 400;
+  margin-right: 8px;
+}
+.language_select {
+  float: left;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.select_line {
+  float: left;
+  width: 1px;
+  height: 12px;
+  background-color: #AEAEAE;
+  margin-top: 14px;
+  margin-left: 16px;
+}
+.answer_right input {
+  height: 26px;
+  width: 230px;
+  padding-left: 10px;
+}
+.answer_imge {
+  cursor: pointer;
+}
+.answer_search {
+  width: 29px;
+  height: 12px;
+  font-weight: bold;
+  color: #2473D6;
+  cursor: pointer;
+}
+.answer_content {
+  width: 100%;
+  height: 1038px;
+  position: relative;
+  background: #faf9f9;
+}
+.emblazonry_left {
+  position: absolute;
+  bottom: 0;
+}
+.emblazonry_right {
+  position: absolute;
+  top: 48px;
+  right: 0;
+}
+.answer_main {
+  width: 1200px;
+  margin: 0 auto;
+}
+.answer_location {
+  padding: 24px 0 22px;
+}
+.answer_location .location_img {
+  margin-right: 8px;
+}
+.answer_location span {
+  color: #999999;
+}
+.answer_sub {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: row;
+}
+.answer_sub .sub_left {
+  width: 254px;
+  height: 460px;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px 0px rgba(1, 2, 2, 0.04);
+}
+.subline_left {
+  width: 254px;
+  height: 3px;
+  background-image: url(../../../src/assets/images/medical/line-left.png);
+}
+.hot_issue {
+  height: 60px;
+  line-height: 60px;
+  padding-left: 22px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #2B72D5;
+  border-bottom: 1px solid #E0E0E0;
+  position: relative;
+}
+.hot_issue .hot_issueLine {
+  width: 30px;
+  height: 4px;
+  background-color: #2B72D5;
+  position: absolute;
+  border-radius: 2px;
+  bottom: 0;
+  left: 42px;
+}
+.hot_list {
+  height: 13px;
+  margin-left: 14px;
+  margin-top: 22px;
+  color: #666666;
+  cursor: pointer;
+}
+.hot_list .hot_listImg,
+.hot_list .hot_listText {
+  float: left;
+}
+.hot_list .hot_listImg {
+  width: 16px;
+  height: 13px;
+  background-image: url(../../../src/assets/images/medical/information-li.png);
+  margin-top: 5px;
+  margin-right: 6px;
+}
+.hot_list:hover {
+  color: #205FC6;
+}
+.hot_list:hover .hot_listImg {
+  background-image: url(../../../src/assets/images/medical/information-li-hover.png);
+}
+.sub_right {
+  flex: 1;
+  background-color: #fff;
+  margin-left: 12px;
+  padding-bottom: 30px;
+}
+.sub_rightLine {
+  height: 3px;
+  background-image: url(../../../src/assets/images/medical/right-line.png);
+}
+.sub_ask {
+  padding: 40px 0 0 30px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.sub_askLeft,
+.sub_askRight {
+  float: left;
+}
+.sub_askImg {
+  margin-left: 8px;
+}
+.sub_askName {
+  font-weight: bold;
+  color: #333333;
+  margin-top: 20px;
+}
+.sub_askRight {
+  margin-left: 20px;
+}
+.sub_askTitle {
+  overflow: hidden;
+}
+.sub_askTitle .sub_askIco {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-top: 4px;
+}
+.sub_askTitle .sub_askt {
+  float: left;
+  font-size: 18px;
+  color: #333;
+  margin-left: 8px;
+  width: 666px;
+}
+.sub_askDescribe {
+  margin-top: 18px;
+  width: 694px;
+  color: #666666;
+  line-height: 24px;
+}
+.sub_askHour {
+  margin-top: 18px;
+  font-weight: 400;
+  color: #B6B6B6;
+}
+.sub_respond {
+  padding: 0 36px 0 120px;
+  overflow: hidden;
+  display: block;
+}
+.sub_respond .sub_resLeft {
+  float: left;
+  margin-top: 12px;
+  width: 660px;
+  padding: 10px;
+  background-color: #F4F4F4;
+  border-radius: 3px;
+  line-height: 24px;
+  margin-right: 28px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.sub_respond .sub_resLeft.sub_back {
+  background: #F4F4F4;
+}
+.sub_respond .sub_resLeft .sub_resImg {
+  text-align: center;
+  margin-top: 10px;
+}
+.hide {
+  display: none;
+}
+.sub_resRight {
+  float: left;
+}
+.sub_resName {
+  font-weight: bold;
+  color: #333;
+  margin-top: 18px;
+}
+.answer_page {
+  width: 100%;
+}
+.answer_footer {
+  height: 200px;
+  background-image: url(../../../src/assets/images/medical/bottom-bg.png);
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+.answer_footerText,
+.answer_aboutUs {
+  text-align: center;
+  margin: 20px 0;
+  color: #333333;
+}
+.answer_footerText span,
+.answer_aboutUs span {
+  margin: 0 15px;
+}
+.answer_footerText span:first-child,
+.answer_aboutUs span:first-child {
+  margin-left: 0;
+}
+.answer_footerText span:last-child,
+.answer_aboutUs span:last-child {
+  margin-right: 0;
+}
+.answer_footerText p,
+.answer_aboutUs p {
+  color: #333;
+}
+.answer_footerText p a,
+.answer_aboutUs p a {
+  color: #333;
+}
+.answer_footerText p i,
+.answer_aboutUs p i {
+  padding: 0 20px;
+}
+.answer_aboutUs {
+  margin-top: 50px;
+}
+.answer_indexText {
+  text-align: center;
+  margin: 20px 0;
+  color: #333333;
+  margin-bottom: 50px;
+}
+.answer_indexText span {
+  margin-left: 30px;
+}
+.answer_tips {
+  height: 40px;
+  background: #292929;
+  text-align: center;
+  color: #818181;
+  line-height: 40px;
+  font-size: 14px;
+}
+.answer_fixed {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  right: 20px;
+  bottom: 320px;
+  /*display: none;*/
+  z-index: 111;
+}
+.answer_fixed .answer_phone {
+  width: 58px;
+  height: 42px;
+  padding: 10px 0;
+  border: 1px solid #E3E3E3;
+  /*border-bottom: none;*/
+  border-radius: 3px 3px 0px 0px;
+  background-color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+.answer_fixed .answer_phone:hover {
+  background-color: #2272E2;
+}
+.answer_fixed .answer_phone:hover .answer_phoneImg {
+  background-image: url(../../../src/assets/images/homepage/qr-code-hover.png);
+}
+.answer_fixed .answer_phone:hover .answer_phoneText {
+  color: #fff;
+}
+.answer_fixed .answer_phone .answer_phoneImg {
+  width: 22px;
+  height: 22px;
+  margin: 0 auto;
+  background-image: url(../../../src/assets/images/homepage/qr_code.png);
+}
+.answer_fixed .answer_phone .answer_phoneText {
+  margin-top: 6px;
+  color: #666666;
+}
+.answer_fixed .answer_backTop {
+  width: 60px;
+  height: 44px;
+  padding: 10px 0;
+  border-radius: 0px 0px 3px 3px;
+  text-align: center;
+  background-color: #2272E2;
+  cursor: pointer;
+}
+.answer_fixed .answer_backTop a {
+  display: block;
+  color: #fff;
+}
+.answer_fixed .answer_backtopText {
+  margin-top: 6px;
+  color: #fff;
+  font-size: 12px;
+}
+.sub_res_btn {
+  text-align: center;
+  width: 84px;
+  height: 34px;
+  margin: 30px auto;
+  line-height: 34px;
+  color: #fff;
+  background-image: url(../../../src/assets/images/personal/reply.png);
+  background-size: 100% 100%;
+  cursor: pointer;
+  border-radius: 3px;
+}

@@ -1,0 +1,689 @@
+::-webkit-input-placeholder {
+  /*Webkit browsers*/
+  color: #92B4E8;
+  font-size: 14px;
+}
+:-moz-placeholder {
+  /*Mozilla Firefox 4 to 8*/
+  color: #92B4E8;
+  font-size: 14px;
+}
+::moz-placeholder {
+  /*Mozilla Firefox 19+*/
+  color: #92B4E8;
+  font-size: 14px;
+}
+:-ms-input-placeholder {
+  /*Internet Explorer 10+*/
+  color: #92B4E8;
+  font-size: 14px;
+}
+img {
+  vertical-align: middle;
+}
+#mongolia {
+  font-size: 14px;
+}
+#mongolia input {
+  outline: none;
+  border: none;
+}
+#mongolia .mongolia_login {
+  width: 1200px;
+  height: 28px;
+  margin: 0 auto;
+  padding-top: 10px;
+  color: #666666;
+}
+#mongolia .mongolia_login .mongolia_cart {
+  float: right;
+  cursor: pointer;
+}
+#mongolia .mongolia_login .mongolia_cart img {
+  margin-left: 10px;
+}
+#mongolia .mongolia_login .mongolia_cart span {
+  margin-left: 6px;
+}
+#mongolia .mongolia_login .mongolia_img {
+  float: right;
+  cursor: pointer;
+}
+#mongolia .mongolia_login .mongolia_img img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+#mongolia .mongolia_login .mongolia_img span {
+  color: #2473D6;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#mongolia .mongolia_login .mongolia_loginInfo {
+  float: right;
+  margin-left: 10px;
+  cursor: pointer;
+}
+#mongolia .mongolia_login .mongolia_loginInfo span {
+  margin-right: 10px;
+}
+#mongolia .mongolia_login .mongolia_loginInfo .mongolia_message {
+  margin-left: 10px;
+}
+#mongolia .mongolia_banner {
+  width: 100%;
+  height: 542px;
+  position: relative;
+  overflow: hidden;
+}
+#mongolia .mongolia_banner .mongolia_bg {
+  width: 100%;
+  height: 542px;
+}
+#mongolia .mongolia_banner .answer_log {
+  width: 1200px;
+  height: 100px;
+  line-height: 100px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2000;
+}
+#mongolia .mongolia_banner .answer_log .answer_left {
+  float: left;
+  position: relative;
+}
+#mongolia .mongolia_banner .answer_log .answer_left .nation_line {
+  display: inline-block;
+  width: 1px;
+  height: 35px;
+  background-color: #2473D6;
+  position: absolute;
+  top: 34px;
+  left: 284px;
+}
+#mongolia .mongolia_banner .answer_log .answer_left .nation_select {
+  width: 97px;
+  height: 37px;
+  line-height: 37px;
+  background-image: url(../../../src/assets/images/medical/nation-border.png);
+  position: absolute;
+  top: 34px;
+  left: 294px;
+  text-align: center;
+  color: #4686D7;
+}
+#mongolia .mongolia_banner .answer_log .answer_left .nation_select img {
+  cursor: pointer;
+}
+#mongolia .mongolia_banner .answer_log .answer_right {
+  float: right;
+  width: 364px;
+  height: 42px;
+  line-height: 40px;
+  margin-top: 30px;
+  background: url(../../../src/assets/images/login/search.png);
+}
+#mongolia .mongolia_banner .answer_log .answer_select {
+  float: left;
+  padding-left: 6px;
+  color: #395A99;
+  font-weight: 400;
+  margin-right: 8px;
+}
+#mongolia .mongolia_banner .answer_log .language_select {
+  float: left;
+  margin-top: 15px;
+  cursor: pointer;
+}
+#mongolia .mongolia_banner .answer_log .select_line {
+  float: left;
+  width: 1px;
+  height: 12px;
+  background-color: #AEAEAE;
+  margin-top: 14px;
+  margin-left: 16px;
+}
+#mongolia .mongolia_banner .answer_log .answer_right input {
+  height: 26px;
+  width: 260px;
+  padding-left: 10px;
+  background: rgba(255, 255, 255, 0);
+  color: #2473D6;
+}
+#mongolia .mongolia_banner .answer_log .answer_imge {
+  cursor: pointer;
+}
+#mongolia .mongolia_banner .answer_log .answer_search {
+  width: 29px;
+  height: 12px;
+  font-weight: bold;
+  color: #2473D6;
+  cursor: pointer;
+}
+#mongolia .mongolia_banner .mongolia_bcon {
+  width: 1200px;
+  height: 384px;
+  margin: 158px auto 0;
+  background: rgba(255, 255, 255, 0.63);
+}
+#mongolia .mongolia_banner .mongolia_bcon .mongolia_wrap {
+  width: 1200px;
+  overflow: hidden;
+}
+.mongolia_wrap .mongolia_bleft,
+.mongolia_wrap .mongolia_bright {
+  float: left;
+}
+.mongolia_wrap .mongolia_bleft {
+  margin-top: 64px;
+  margin-left: 38px;
+}
+.mongolia_wrap .mongolia_list {
+  overflow: hidden;
+}
+.mongolia_wrap .mongolia_list .mongolia_lis {
+  float: left;
+  width: 126px;
+  height: 143px;
+  background-image: url(../../../src/assets/images/home/bg.png);
+  background-size: 100% 100%;
+  text-align: center;
+  cursor: pointer;
+}
+.mongolia_wrap .mongolia_list .mongolia_lis .mongolia_liText {
+  font-size: 18px;
+  color: #333333;
+}
+.mongolia_wrap .mongolia_list .mongolia_lis:first-child img,
+.mongolia_wrap .mongolia_list .mongolia_lis:nth-child(3) img {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.mongolia_wrap .mongolia_list .mongolia_lis:nth-child(2) img {
+  margin-top: 5px;
+  margin-bottom: 12px;
+}
+.mongolia_wrap .mongolia_list .mongolia_lis:nth-child(4) img {
+  margin-top: 34px;
+  margin-bottom: 24px;
+}
+.mongolia_wrap .mongolia_list .mongolia_lis:not(:first-child) {
+  margin-left: 28px;
+}
+.mongolia_wrap .mongolia_list .mongolia_lis:hover {
+  width: 126px;
+  height: 143px;
+  background-color: #333;
+}
+.mongolia_wrap .mongolia_recueillir {
+  margin-top: 46px;
+  /* overflow: hidden; */
+}
+.mongolia_wrap .mongolia_recueillir .mongolia_text {
+  width: 636px;
+  overflow: hidden;
+}
+.mongolia_wrap .mongolia_recueillir .mongolia_text .content_text{
+  height: 40px;
+  line-height: 40px;
+  font-size: 28px;
+  margin-top: 5px;
+  margin-left: 5px;
+  color: #002B51;
+}
+.mongolia_wrap .mongolia_recueillir .mongolia_text .mon_text {
+  float: left;
+  font-size: 18px;
+  margin-top: 5px;
+  margin-left: 5px;
+  color: #002B51;
+}
+.mongolia_wrap .mongolia_recueillir .mongolia_text .mon_num {
+  width: 34px;
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+  color: #002B51;
+  background-color: #fff;
+  float: left;
+  font-size: 24px;
+  margin-left: 5px;
+  border-radius: 3px;
+}
+.mongolia_wrap .mongolia_recueillir .mongolia_text:nth-child(2) {
+  margin-top: 20px;
+}
+.mongolia_wrap .mongolia_bright {
+  width: 481px;
+  height: 246px;
+  font-size: 18px;
+  color: #333333;
+  line-height: 36px;
+  margin-top: 80px;
+  margin-left: 30px;
+  overflow: hidden;
+}
+.mongolia_prescription {
+  background-color: #F4F5F9;
+  padding-top: 56px;
+  padding-bottom: 62px;
+}
+.mongolia_prescription .mongolia_main {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.mongolia_prescription .mongolia_main .mongolia_mainLeft {
+  width: 874px;
+  height: 335px;
+  background-color: #fff;
+  float: left;
+}
+.mongolia_prescription .mongolia_main .mongolia_mainLeft .mongolia_fang {
+  width: 797px;
+  height: 76px;
+  margin: 28px auto 0;
+  background-image: url(../../../src/assets/images/home/fang-tit.png);
+}
+.mongolia_prescription .mongolia_main .mongolia_mainLeft .mongolia_fang img {
+  float: right;
+  cursor: pointer;
+}
+.mongolia_prescription .mongolia_main .mongolia_mainLeft .mongolia_fmain {
+  width: 797px;
+  overflow: hidden;
+  margin: 16px auto 0;
+}
+.mongolia_prescription .mongolia_main .mongolia_mainLeft .mongolia_fmain .mongolia_fLeft {
+  height: 175px;
+  overflow: hidden;
+  float: left;
+}
+.mongolia_prescription .mongolia_main .mongolia_mainLeft .mongolia_fmain .mongolia_fLeft .mongolia_fTop {
+  overflow: hidden;
+}
+.mongolia_prescription .mongolia_main .mongolia_mainLeft .mongolia_fmain .mongolia_fLeft .mongolia_fTop img {
+  float: left;
+}
+.mongolia_prescription .mongolia_main .mongolia_mainLeft .mongolia_fmain .mongolia_fLeft .mongolia_fTop .mon_right {
+  float: left;
+  margin-left: 16px;
+}
+.mongolia_prescription .mongolia_main .mongolia_mainLeft .mongolia_fmain .mongolia_fLeft .mongolia_fTop .mon_right .mon_rightTitle {
+  font-size: 18px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+.mongolia_prescription .mongolia_main .mongolia_mainLeft .mongolia_fmain .mongolia_fLeft .mongolia_fBot {
+  width: 355px;
+  margin-top: 22px;
+  color: #333;
+  line-height: 24px;
+  overflow: hidden;
+}
+.mongolia_prescription .mongolia_main .mongolia_mainLeft .mongolia_fmain .mongolia_fLeft:nth-child(2) {
+  margin-left: 82px;
+}
+.mongolia_prescription .mongolia_main .mongolia_mainRight {
+  width: 254px;
+  height: 335px;
+  background-color: #fff;
+  margin-left: 24px;
+  float: left;
+  padding: 0 24px;
+}
+.mongolia_prescription .mongolia_main .mongolia_mainRight .mongolia_rTitle {
+  margin-top: 32px;
+  height: 30px;
+}
+.mongolia_prescription .mongolia_main .mongolia_mainRight .mongolia_rTitle .mon_adv {
+  font-size: 16px;
+  color: #666;
+  padding-left: 6px;
+  cursor: pointer;
+}
+.mongolia_prescription .mongolia_main .mongolia_mainRight .mongolia_rTitle .mon_adv:hover {
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+  padding-right: 6px;
+}
+.mongolia_prescription .mongolia_main .mongolia_mainRight .mongolia_rTitle .mon_adv.active {
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+}
+.mongolia_prescription .mongolia_main .mongolia_mainRight .mongolia_rlis {
+  margin-top: 30px;
+}
+.mongolia_prescription .mongolia_main .mongolia_mainRight .mongolia_rlis .mongolia_brea {
+  float: left;
+  cursor: pointer;
+}
+.mongolia_prescription .mongolia_main .mongolia_mainRight .mongolia_rlis .mongolia_brea a {
+  display: inline-block;
+  padding: 6px 16px;
+  background-color: #F2F2F2;
+  border-radius: 4px;
+  margin: 0 4px 10px 0;
+  color: #333;
+  border: 1px solid #F2F2F2;
+}
+.mongolia_prescription .mongolia_main .mongolia_mainRight .mongolia_rlis .mongolia_brea a:hover {
+  border-color: #FC9224;
+  color: #FC9224;
+}
+.mon_rightLi,
+.mon_drugList {
+  height: 27px;
+}
+.mon_rightLi .mon_drugMong,
+.mon_drugList .mon_drugMong {
+  text-align: center;
+  border-radius: 4px;
+  background-color: #EEF4FD;
+  float: left;
+  margin-right: 6px;
+  cursor: pointer;
+  padding: 4px 7px;
+}
+.mon_rightLi .mon_drugMong a,
+.mon_drugList .mon_drugMong a {
+  color: #1F77F2;
+}
+.mongolia_doctor {
+  width: 100%;
+  height: 887px;
+  background-image: url(../../../src/assets/images/home/doctors-bg.png);
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+.mongolia_doctor .mon_doctor {
+  width: 1200px;
+  height: 368px;
+  background-color: #fff;
+  margin: 64px auto 42px;
+  overflow: hidden;
+}
+.mongolia_doctor .mon_doctor .mon_docImg {
+  width: 1200px;
+  height: 75px;
+  background-image: url(../../../src/assets/images/home/doctor-tit.png);
+  margin-top: 30px;
+  margin-bottom: 22px;
+  overflow: hidden;
+}
+.mongolia_doctor .mon_doctor .mon_docImg img {
+  float: right;
+  margin-right: 38px;
+  margin-top: 2px;
+  cursor: pointer;
+}
+.mongolia_doctor .mon_doctor .mon_main {
+  padding: 0 38px;
+}
+.mongolia_doctor .mon_doctor .mon_main .mon_mdoctor {
+  overflow: hidden;
+  float: left;
+}
+.mongolia_doctor .mon_doctor .mon_main .mon_mdoctor:nth-child(2) {
+  margin-left: 80px;
+}
+.mongolia_doctor .mon_doctor .mon_main .mon_mdoctor .mon_mLeft {
+  width: 144px;
+  height: 190px;
+  box-shadow: 0 0 5px #dddddd inset;
+  float: left;
+  text-align: center;
+  position: relative;
+}
+.mongolia_doctor .mon_doctor .mon_main .mon_mdoctor .mon_mLeft .mon_mName {
+  width: 100%;
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+  color: #fff;
+  background-color: #1F77F2;
+  font-size: 16px;
+  position: absolute;
+  bottom: 0;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.mongolia_doctor .mon_doctor .mon_main .mon_mdoctor .mon_mRight {
+  float: left;
+  margin-left: 22px;
+  overflow: hidden;
+  padding-top: 15px;
+}
+.mongolia_doctor .mon_doctor .mon_main .mon_mdoctor .mon_mRight .mon_mTitle {
+  font-size: 18px;
+  color: #333333;
+  cursor: pointer;
+}
+.mongolia_doctor .mon_doctor .mon_main .mon_mdoctor .mon_mRight .mon_post {
+  margin-top: 20px;
+  overflow: hidden;
+}
+.mongolia_doctor .mon_doctor .mon_main .mon_mdoctor .mon_mRight .mon_post .mon_circle {
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: #A8A8A8;
+  float: left;
+  margin-top: 6px;
+}
+.mongolia_doctor .mon_doctor .mon_main .mon_mdoctor .mon_mRight .mon_post .mon_postname {
+  color: #A8A8A8;
+  float: left;
+  margin-left: 5px;
+}
+.mongolia_doctor .mon_doctor .mon_main .mon_mdoctor .mon_mRight .mon_posttext {
+  margin-top: 15px;
+  color: #666;
+  width: 356px;
+  height: 94px;
+  line-height: 25px;
+  overflow: hidden;
+}
+.mongolia_doctor .mon_doctor .mon_main .mon_mdoctor .mon_img {
+  margin-top: 4px;
+  width: 135px;
+  height: 182px;
+}
+.mongolia_doctor .drugDong {
+  float: left;
+  cursor: pointer;
+}
+.mongolia_doctor .drugDong a {
+  display: inline-block;
+  padding: 6px 16px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  color: #333;
+  border: 1px solid #F2F2F2;
+  border-radius: 4px;
+}
+.mongolia_doctor .drugDong a:hover {
+  border-color: #FC9224;
+  color: #FC9224;
+}
+.mongolia_doctor .mon_drug {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.mongolia_doctor .mon_drug .mon_drugLeft {
+  width: 302px;
+  height: 328px;
+  background-color: #fff;
+  float: left;
+}
+.mongolia_doctor .mon_drug .mon_drugLeft .mon_drugTitle {
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+  margin: 30px 0 30px 24px;
+}
+.mongolia_doctor .mon_drug .mon_drugLeft .mon_drugLis {
+  margin-left: 24px;
+  overflow: hidden;
+}
+.mongolia_doctor .mon_drug .mon_drugRight {
+  width: 874px;
+  height: 328px;
+  background-color: #fff;
+  float: left;
+  margin-left: 24px;
+}
+.mongolia_doctor .mon_drug .mon_drugRight .mon_drugRightbg {
+  margin-top: 15px;
+  width: 836px;
+  height: 57px;
+  background-image: url(../../../src/assets/images/home/doctoran-tit.png);
+}
+.mongolia_doctor .mon_drug .mon_drugRight .mon_drugRightbg img {
+  float: right;
+  cursor: pointer;
+  margin-top: 26px;
+}
+.mongolia_doctor .mon_drug .mon_drugRight .mon_drugmain {
+  margin-top: 35px;
+  margin-left: 26px;
+  overflow: hidden;
+}
+.mongolia_doctor .mon_drug .mon_drugRight .mon_drugmain .mon_drugcontent {
+  float: left;
+}
+.mongolia_doctor .mon_drug .mon_drugRight .mon_drugmain .mon_drugcontent .mon_drugconTitle,
+.mongolia_doctor .mon_drug .mon_drugRight .mon_drugmain .mon_drugcontent .mon_drugconTitl {
+  padding-left: 12px;
+  padding-top: 10px;
+  font-size: 18px;
+  color: #333;
+  position: relative;
+}
+.mongolia_doctor .mon_drug .mon_drugRight .mon_drugmain .mon_drugcontent .mon_drugconTitle .mon_drugTitle,
+.mongolia_doctor .mon_drug .mon_drugRight .mon_drugmain .mon_drugcontent .mon_drugconTitl .mon_drugTitle {
+  position: absolute;
+  top: 20px;
+  left: 22px;
+  font-size: 18px;
+}
+.mongolia_doctor .mon_drug .mon_drugRight .mon_drugmain .mon_drugcontent .mon_drugconTitle .mon_drugTitle:hover,
+.mongolia_doctor .mon_drug .mon_drugRight .mon_drugmain .mon_drugcontent .mon_drugconTitl .mon_drugTitle:hover {
+  color: #1F77F2;
+}
+.mongolia_doctor .mon_drug .mon_drugRight .mon_drugmain .mon_drugcontent .mon_drugList {
+  margin-top: 20px;
+  margin-left: 12px;
+  overflow: hidden;
+}
+.mongolia_doctor .mon_drug .mon_drugRight .mon_drugmain .mon_drugcontent .mon_drugText {
+  margin-top: 20px;
+  margin-left: 12px;
+  width: 356px;
+  color: #666666;
+  line-height: 24px;
+  overflow: hidden;
+}
+.mongolia_doctor .mon_drug .mon_drugRight .mon_drugmain .mon_drugcontent:nth-child(2) {
+  margin-left: 70px;
+}
+.mongolia_mains {
+  width: 100%;
+  height: 560px;
+  overflow: hidden;
+  background-image: url(../../../src/assets/images/home/main-bg.png);
+  background-size: 100% 100%;
+}
+.mongolia_mains .mongolia_mainyizhu {
+  width: 1200px;
+  height: 430px;
+  margin: 50px auto 0;
+  background-color: #fff;
+  overflow: hidden;
+}
+.mongolia_mains .mongolia_mainyizhu .mongolia_mainyizhubg {
+  margin-top: 14px;
+  margin-bottom: 66px;
+  width: 1163px;
+  height: 58px;
+  background-image: url(../../../src/assets/images/home/doctorzhu-tit.png);
+}
+.mongolia_mains .mongolia_mainyizhu .mongolia_mainyizhubg img {
+  float: right;
+  margin-top: 26px;
+  cursor: pointer;
+}
+.mongolia_mains .mongolia_mainyizhu .mongolia_mainList {
+  padding: 0 0 73px 55px;
+  overflow: hidden;
+}
+.mongolia_mains .mongolia_mainyizhu .mongolia_mainList .mon_mainli {
+  height: 224px;
+  overflow: hidden;
+  float: left;
+  padding-bottom: 5px;
+  border-right: 1px solid #ECECEC;
+  padding: 0 40px;
+}
+.mongolia_mains .mongolia_mainyizhu .mongolia_mainList .mon_mainli .mon_img {
+  float: left;
+  width: 150px;
+  height: 203px;
+  cursor: pointer;
+}
+.mongolia_mains .mongolia_mainyizhu .mongolia_mainList .mon_mainli .mon_mainText {
+  float: left;
+  margin-left: 26px;
+}
+.mongolia_mains .mongolia_mainyizhu .mongolia_mainList .mon_mainli .mon_mainText .mon_mainTitle {
+  font-size: 18px;
+  color: #363636;
+  margin-bottom: 24px;
+  cursor: pointer;
+}
+.mongolia_mains .mongolia_mainyizhu .mongolia_mainList .mon_mainli .mon_mainText .mon_mainName {
+  margin: 18px 0 28px;
+  color: #989898;
+}
+.mongolia_mains .mongolia_mainyizhu .mongolia_mainList .mon_mainli .mon_mainText .mon_maintext {
+  width: 390px;
+  color: #666666;
+  display: -webkit-box;
+  /*! autoprefixer: off */
+  -webkit-box-orient: vertical;
+  /* autoprefixer: on */
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.mongolia_mains .mongolia_mainyizhu .mongolia_mainList .mon_mainLi {
+  padding: 0 50px;
+  height: 224px;
+  border-right: 1px solid #ECECEC;
+  float: left;
+}
+.mongolia_mains .mongolia_mainyizhu .mongolia_mainList .mon_mainLi .mon_wrapTitle {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 18px;
+  color: #363636;
+  cursor: pointer;
+}
+.mongolia_mains .mongolia_mainyizhu .mongolia_mainList .mon_mainLi .mon_mainliImg {
+  overflow: hidden;
+  cursor: pointer;
+}
+.mongolia_mains .mongolia_mainyizhu .mongolia_mainList .mon_mainLi .mon_mainliImg img {
+  width: 120px;
+  height: 162px;
+}
+.fontSize {
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+  padding-right: 6px;
+}

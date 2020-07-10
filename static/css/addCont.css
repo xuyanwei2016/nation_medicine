@@ -1,0 +1,131 @@
+.resCover{position: relative}
+.resCover .el-upload{
+  display: flex;
+  align-items: flex-end;
+}
+.resCover .el-form-item__content{
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+}
+.resCover .el-form-item__content button span{height: 32px;
+  line-height: 32px;}
+.resCover .el-form-item__content button{
+  color: #FFF;
+  background-color: #409EFF;
+  font-size: 14px;
+  border-radius: 4px;
+  width: 98px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  margin: 0 0 30px 20px;
+  padding: 0;
+}
+.resCover .el-upload__tip{
+color:#989898;font-size: 12px;
+  position: absolute;
+  left:220px; top: 110px;
+}
+.changeTip .el-upload__tip{color:#989898;    font-size: 12px;}
+.activeUpload{position: relative}
+.activeUpload .t{position: absolute;left:100px; top:6px;}
+.activeUpload .el-form-item__content{ display: flex; justify-content: flex-start;margin: 0;
+  padding: 0;}
+.activeUpload .el-form-item__content .t{color:#989898;font-size: 12px;padding-left: 20px}
+.imgUpload .el-form-item__content{
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+/*.imgUpload .el-form-item__content .upload-demo .el-upload{ !*display: none!important;*!}*/
+.imgUpload .el-form-item__content .upload-demo .el-upload-list--picture li{width: 148px;height: 148px;margin: 0 20px 20px 0; padding: 0; float: left;display: block}
+.imgUpload .el-form-item__content .upload-demo .el-upload-list--picture li img{width: 146px;height: 146px;padding: 0;margin: 0}
+.imgUpload .el-form-item__content .upload-demo .el-upload-list--picture li .el-upload-list__item-name{display: none}
+.imgUpload .el-form-item__content .upload-demo .el-upload-list--picture li .el-upload-list__item-status-label{z-index: 111}
+.imgUpload .el-form-item__content .upload-demo .el-upload-list--picture li .el-icon-close{z-index: 111}
+.imgUpload .button{
+  display: flex;
+  justify-content: flex-start;
+}
+.imgUpload .el-upload__tip{
+  position: absolute;
+  left: 118px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: #989898;
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+  line-height: 30px;
+}
+.imgUpload .video  .el-upload-list__item:first-child {
+   margin-top: 0px;
+}
+.imgUpload .video ul li{padding-bottom: 10px;}
+.imgUpload .upload-demo{
+  /*position: relative;*/
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.imgUpload .button .el-icon-plus{
+  font-size: 30px;
+  color: #8C939D;
+  width: 148px;
+  height: 148px;
+  border: 1px dashed #409EFF;
+  border-radius: 3px;
+  line-height: 148px;
+  text-align: center;
+}
+.imgUpload .el-upload-list {
+  margin: 10px 0 0 0;
+  padding: 0;
+  list-style: none;
+  /*display: flex;
+  justify-content: flex-start;*/
+  /*flex-direction: column;*/
+}
+.activeUpload .el-upload,.el-upload button,.imgUpload .el-upload,.imgUpload .el-upload button{
+  width: 98px;
+  height: 32px;
+  line-height: 32px;
+  margin: 0;
+  padding: 0;
+}
+
+.resContent thead tr th{background: #F5F5F5}
+.prop .el-select{
+  width: 120px;
+  margin-right: 10px;
+
+}
+.prop .el-select  .el-input{height: 30px;
+  line-height: 30px;}
+.prop .el-select  .el-input input{
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 3px;border:1px solid  #DCDFE6; margin: 0;
+  padding:0 0 0 11px;
+}
+.prop .el-select .el-input__icon{height: 30px;
+  line-height: 30px;}
+.el-scrollbar .el-select-dropdown__item {
+  font-size: 14px;
+  padding: 0 20px;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #606266;
+  height: 34px;
+  line-height: 34px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  cursor: pointer;
+}

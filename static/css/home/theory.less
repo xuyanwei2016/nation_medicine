@@ -1,0 +1,612 @@
+body{height:100%;background: #f5f5f5;}
+#app {
+  font-size: 14px;
+  background: none!important;
+}
+input,button,select,textarea{outline:none}
+.theory {
+    margin: 0;
+    padding: 0;
+}
+
+.theory input {
+    outline: none;
+    border: none;
+}
+ul,li{ list-style: none; margin: 0; padding: 0}
+
+.theory{
+  .whole_bg {
+    height: 208px;
+    background-image: url(../../../src/assets/images/home/whole_bg.png);
+    background-size: 100% 100%;
+  }
+  .whole_list {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+    overflow: hidden;
+    box-shadow:-2px 0 3px -1px transparent, //左边阴影
+    0 -2px 3px -1px transparent, //顶部阴影
+    0 2px 3px -1px transparent, //底部阴影
+    2px 2px 3px -1px rgba(1,2,2,0.04); //右边阴影
+  }
+  .whole_listMoudle {
+    width: 100px;
+    height: 108px;
+    background-image: url(../../../src/assets/images/home/resource-bg.png);
+    float: left;
+    cursor: pointer;
+    &:not(:first-child) {
+      margin-left: 18px;
+    }
+    &:hover, &:visited {
+      background-image: url(../../../src/assets/images/home/resource-bg-hover.png);
+      .whole_listTitle, .whole_listnum {
+        color: #2B72D5;
+      }
+    }
+  }
+  .hover_Moudle{
+    background-image: url(../../../src/assets/images/home/resource-bg-hover.png);
+    .whole_listTitle, .whole_listnum {
+      color: #2B72D5;
+    }
+  }
+  .whole_listTitle {
+    width: 40px;
+    height: 18px;
+    font-size: 20px;
+    margin: 26px auto 0;
+    color: #fff;
+  }
+  .whole_listnum {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-top: 22px;
+    font-family:DIN-Medium;
+  }
+  /*内容*/
+  .theory_content{
+    width:100%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px;
+    
+    .theoryRightBg{
+      position: absolute;
+      background: url("../../../src/assets/images/home/theory.png") no-repeat right;
+      height:311px;
+      width:306px;
+      right: 0;
+      z-index: -1;
+      top:0px;
+    }
+    .theoryLeftBg{
+      position: absolute;
+      background: url("../../../src/assets/images/medical/emblazonry-left.png") no-repeat right;
+      height:622px;
+      width:301px;
+      left: 0;
+      z-index: -1;
+      bottom:47px;
+    }
+    .theory_box{
+      width:1200px;
+      margin: 0 auto;
+      .text{
+        color: #606266;
+      }
+    }
+    .theory_main{
+      width:1200px;
+      min-height: 500px;
+      background: #f5f5f5;
+      margin: 0 auto;
+      /*分类*/
+      .theoryClass{
+        width:1164px;
+        height:auto;
+        background:rgba(255,255,255,1);
+        box-shadow:0px 2px 8px 0px rgba(1,2,2,0.04);
+        // border-top:3px solid #2B72D5;
+        padding: 20px 18px;
+        .theoryClassUl{
+          li{
+             .classGener{
+              font-size:14px;
+              font-weight:bold;
+              color:rgba(84,84,84,1);
+              line-height:36px;
+               float: left;
+               display: block;
+            }
+            .classCont{
+              width: 978px;
+              color: #545454;
+              font-size: 14px;
+              display: inline-block;
+              span{
+                margin-right: 15px;
+                line-height:36px;
+                cursor: pointer;
+                &:hover{
+                  color: #1F77F2;
+                }
+                img{
+                  margin-left: 2px;
+                }
+              }
+              .hoverCss{
+                color: #1F77F2;
+              }
+            }
+          }
+        }
+        .selected{
+          .selectW{
+            width:70px;
+            font-size:14px;
+            font-family:MicrosoftYaHei-Bold;
+            color:rgba(84,84,84,1);
+            line-height:26px;
+            float: left;
+            display: block;
+          }
+          .selectCont{
+            width: 978px;
+            color: #545454;
+            font-size: 14px;
+            margin-top: 5px;
+            overflow: hidden;
+            .blurBg{
+              float: left;
+              display: flex;
+              height:24px;
+              line-height: 24px;
+              padding-left: 16px;
+              margin-right: 15px;
+              border: 1px solid #2B72D5;
+              color: #2B72D5;
+              font-size:14px;
+              .imgBg{width:22px; height:24px;background: #2B72D5; margin-left: 16px;text-align: center}
+            }
+            .grayBg{
+              float: left;
+              display: flex;
+              height:24px;
+              line-height: 24px;
+              padding-left: 16px;
+              margin-right: 15px;
+              border: 1px solid #ccc;
+              color: #555555;
+              font-size:14px;
+              .imgBg{width:22px; height:24px;background: #ccc; margin-left: 16px;text-align: center}
+            }
+            div:last-child{
+              color: #2B72D5;
+              line-height: 26px;
+            }
+          }
+        }
+      }
+      /*排序*/
+      .whole_arrange {
+        width: 100%;
+        height: 54px;
+        line-height: 54px;
+        border-bottom: 1px solid #EEEEEE;
+        background: #fff;
+        .whole_arrLeft {
+            float: left;
+            margin-left: 20px;
+            span {
+                float: left;
+            }
+            .whole_relevance {
+                float: left;
+                margin-left: 24px;
+                cursor: pointer;
+                span {
+                    float: left;
+                }
+                .whole_img {
+                    width: 7px;
+                    height: 9px;
+                    background: url(../../../src/assets/images/home/down.png) no-repeat;
+                    float: left;
+                    margin-top: 23px;
+                    margin-left: 10px;
+                }
+                &:hover {
+                    color: #2B72D5;
+                    .whole_img {
+                        width: 7px;
+                        height: 9px;
+                        background: url(../../../src/assets/images/home/down-hover.png) no-repeat;
+                    }
+                }
+            }
+            .hoverStyle{
+              color: #2B72D5;
+              .whole_img {
+                  width: 7px;
+                  height: 9px;
+                  background: url(../../../src/assets/images/home/down-hover.png) no-repeat;
+              }
+            }
+        }
+        .whole_result {
+            float: right;
+            margin-right: 12px;
+            font-size: 12px;
+            color: #9B9B9B;
+        }
+      }
+      .theory_list{
+        background: #fff;
+      }
+      /*文章*/
+      .theoryArticle{
+        width:1140px;
+        height:138px;
+        padding: 26px 30px;
+        margin-bottom: 14px;
+        background:rgba(255,255,255,1);
+        box-shadow:0px 2px 8px 0px rgba(1,2,2,0.1);
+        display: flex;
+        justify-content: row;
+        .articleImg{
+          width:185px;
+          height:138px;
+          margin-right: 20px;
+          text-align: center;
+          line-height: 138px;
+          img{
+            max-width: 185px;
+            max-height: 138px;
+          }
+        }
+        .articleCont{
+          color:#999;
+          width: 100%;
+          .articleTit{
+            font-size:18px;
+            display: block;
+            height:45px;
+            font-family:MicrosoftYaHei;
+            font-weight:400;
+            color:rgba(51,51,51,1);
+            cursor: pointer;
+            line-height:24px;
+            &:hover{
+              color:#1F77F2;
+            }
+            img{
+              margin-right: 10px;
+            }
+          }
+        }
+        .description{
+          height:65px;
+          word-wrap:break-word
+        }
+        p{
+          font-size:14px;
+          font-family:MicrosoftYaHei;
+          font-weight:400;
+          color:rgba(102,102,102,1);
+          line-height:24px;
+          overflow: hidden;
+          display: inline;
+        }
+        .articleOther{
+          .price{
+            font-size:16px;
+            font-family:MicrosoftYaHei;
+            font-weight:400;
+            color:rgba(244,77,74,1);
+            line-height:24px;
+            padding-right: 12px
+          }
+          del{
+            padding-right: 18px;
+          }
+          .look{
+            img{
+              padding-right: 6px;
+            }
+            padding-right: 29px;
+          }
+          .fromBook{
+            span{color:#1F77F2}
+          }
+          .addShop{
+            float: right;
+            width: 90px;
+            height: 28px;
+            border-radius: 14px;
+            border: 1px solid #337FE8;
+            color: #337FE8;
+            text-align: center;
+            line-height: 28px;
+            cursor: pointer;
+            &:hover {
+              background-color: #337FE8;
+              color: #fff;
+            }
+          }
+          .non_addShop{
+            float: right;
+            width: 90px;
+            height: 28px;
+            border-radius: 14px;
+            border: 1px solid #ACB0C1;
+            color: #ACB0C1;
+            text-align: center;
+            line-height: 28px;
+            cursor: pointer;
+          }
+          .whole_contRight {
+            float: right;
+            width: 90px;
+            height: 28px;
+            border-radius: 14px;
+            border: 1px solid #2DB3BB;
+            color: #2DB3BB;
+            line-height: 28px;
+            background-image: url(../../../src/assets/images/home/look_hover.png);
+            background-repeat: no-repeat;
+            background-position: 10px;
+            cursor: pointer;
+            span{
+              margin-left: 40px;
+            }
+            &:hover {
+                background-color: #2DB3BB;
+                background-image: url(../../../src/assets/images/home/look.png);
+                color: #fff;
+            }
+          }
+        }
+      }
+      /*医家列表页面*/
+      .doctorArticle{
+        width:1150px;
+        height:198px;
+        padding: 18px 30px 18px 20px;
+        margin-bottom: 14px;
+        background:rgba(255,255,255,1);
+        box-shadow:0px 2px 8px 0px rgba(1,2,2,0.1);
+        display: flex;
+        justify-content: space-between;
+        .doctorImg{
+          background: #ccc;
+          width:160px;
+          height:198px;
+          img{
+            width:160px;
+            height:198px;
+            object-fit: cover;
+          }
+        }
+        .doctorCont{
+          width:962px;
+          color:#999;
+          .doctorLfLine{height: 50px; margin-bottom: 24px;
+            .articleTit{
+              font-size:18px;
+              display: block;
+              height:30px;
+              font-family:MicrosoftYaHei;
+              font-weight:400;
+              color:rgba(51,51,51,1);
+              &:hover{
+                color:#1F77F2;
+              }
+              cursor: pointer;
+              img{
+                margin-right: 10px;
+              }
+              line-height:24px;
+            }
+            span{
+              b{padding: 0 15px;}
+            }
+            .author,.not_author{
+              cursor: pointer;
+            }
+            .author:hover{
+              color:#1F77F2;
+            }
+          }
+          .description{
+            font-size:14px;
+            font-family:MicrosoftYaHei;
+            font-weight:400;
+            color:rgba(102,102,102,1);
+            line-height:24px;
+            display: inline-block;
+            margin-bottom: 20px;
+            min-height: 60px;
+            word-wrap:break-word;
+            width: 100%;
+          }
+        }
+        .doctorOther{
+          .price{
+            font-size:16px;
+            font-family:MicrosoftYaHei;
+            font-weight:400;
+            color:rgba(244,77,74,1);
+            line-height:24px;
+            padding-right: 12px
+          }
+          del{
+            padding-right: 18px;
+          }
+
+          .look{
+            img{
+              padding-right: 4px;
+            }
+            padding-right: 29px;
+          }
+          .addShop{
+            float: right;
+            width: 90px;
+            height: 28px;
+            border-radius: 14px;
+            border: 1px solid #337FE8;
+            color: #337FE8;
+            text-align: center;
+            line-height: 28px;
+            cursor: pointer;
+            &:hover {
+              background-color: #337FE8;
+              color: #fff;
+            }
+          }
+          .checkDoctor{
+            float: right;
+            width: 90px;
+            height: 28px;
+            border-radius: 14px;
+            color: #333;
+            text-align: center;
+            line-height: 28px;
+            cursor: pointer;
+            &:hover {
+              color: #337FE8;
+              a{
+                color: #337FE8;
+              }
+            }
+          }
+          .non_addShop{
+            float: right;
+            width: 90px;
+            height: 28px;
+            border-radius: 14px;
+            border: 1px solid #ACB0C1;
+            color: #ACB0C1;
+            text-align: center;
+            line-height: 28px;
+            cursor: pointer;
+          }
+          .whole_contRight {
+            float: right;
+            width: 90px;
+            height: 28px;
+            border-radius: 14px;
+            border: 1px solid #2DB3BB;
+            color: #2DB3BB;
+            line-height: 28px;
+            background-image: url(../../../src/assets/images/home/look_hover.png);
+            background-repeat: no-repeat;
+            background-position: 10px;
+            cursor: pointer;
+            span{
+              margin-left: 40px;
+            }
+            &:hover {
+                background-color: #2DB3BB;
+                background-image: url(../../../src/assets/images/home/look.png);
+                color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// .whole_con{
+//   margin-bottom: 20px;
+// }
+.whole_line {
+  width: 100%;
+  height: 3px;
+  background-image: url(../../../src/assets/images/medical/right-line.png);
+}
+
+.whole_top {
+  width: 100%;
+  height: 64px;
+  background-color: #fff;
+  margin-bottom: 6px;
+  ul {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      float: left;
+      margin-top: 14px;
+      li {
+          list-style: none;
+          float: left;
+          padding: 0 14px;
+          height: 38px;
+          line-height: 38px;
+          text-align: center;
+          cursor: pointer;
+          &:first-child {
+              font-weight: bold;
+          }
+          &:not(:first-child) {
+              &:hover {
+                  color: #fff;
+                  background-image: url(../../../src/assets/images/home/screen-bg-hover.png);
+                  background-size: 100% 100%;
+              }
+          }
+
+      }
+      .hoverClass{
+        color: #fff;
+        background-image: url(../../../src/assets/images/home/screen-bg-hover.png);
+        background-size: 100% 100%;
+      }
+  }
+  .more {
+      float: right;
+      font-size: 12px;
+      margin-top: 23px;
+      margin-right: 26px;
+      cursor: pointer;
+      img {
+          margin-left: 5px;
+      }
+  }
+}
+
+.whole_free,.whole_nullPrice {
+  float: left;
+  color: #13B0B9;
+  font-size: 16px;
+  margin-top: -2px;
+  margin-right: 16px;
+}
+
+.whole_nullPrice{
+  color: #FC9224
+}
+
+.no_content{
+  display: inline-block;
+  width: 500px;
+  margin-left: 350px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.scroll_wrap{
+  width: 1280px !important;
+  overflow: hidden;
+  transition: all 500ms ease-in-out;
+}
+.scroll_wrap.leftMove{
+  transform: translateX(-82px);
+}
+.scroll_wrap.rightMove{
+  transform: translateX(0px);
+}

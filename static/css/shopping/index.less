@@ -1,0 +1,412 @@
+
+#shopping{
+  width: 100%;
+  background: #fff;
+}
+.shopping_content{
+  width: 1200px;
+  margin: 0 auto;
+}
+.shopping_top{
+  height: 123px;
+  overflow: hidden;
+  background: #fff;
+  overflow: hidden;
+  .shopping_text{
+    float: left;
+    line-height: 160px;
+    font-size:18px;
+    color:rgba(51,51,51,1);
+  }
+  .shopping_img{
+    float: right;
+    width:490px ;
+    img{
+      width: 100%;
+      display: inline-block;
+      margin-top: 40px;
+    }
+    span{
+      color: #00AF9E;
+      display: inline-block;
+      width: 160px;
+      margin-top: 5px;
+      text-align: center;
+    }
+    .not_shopping{
+      color: #CCCCCC;
+    }
+  }
+}
+.shopping_soldout{
+  height: 34px;
+  line-height: 34px;
+  border: solid 1px #eee;
+  padding-left: 14px;
+  margin-bottom: 12px;
+  color: #666;
+  span{
+    color: #4990fb;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  img{
+    float: left;
+    height: 14px;
+    width: 14px;
+    margin-top: 10px;
+    margin-right: 6px;
+  }
+}
+.shopping_table{
+  height: 40px;
+  line-height: 40px;
+  background: #F5F5F5;
+  clear: both;
+  span{
+    display: inline-block;
+    color: #454545;
+    font-weight:bold;
+  }
+  .shopping_select{
+    margin-left: 14px;
+  }
+  .shopping_info{
+    width: 380px;
+    text-align: center;
+  }
+  .shopping_price{
+    width: 180px;
+    text-align: center;
+  }
+  .shopping_num{
+    width: 180px;
+    text-align: center;
+  }
+  .shopping_total{
+    width: 180px;
+    text-align: center;
+  }
+  .shopping_set{
+    width: 160px;
+    text-align: center;
+  }
+}
+.shopping_ebook,.shopping_article{
+  .el-input-number--mini{
+    width: 80px;
+  }
+  .el-input-number__decrease,.el-input-number__increase{
+    width: 20px !important; 
+  }
+  .shopping_title{
+    font-weight:bold;
+    color:rgba(73,144,251,1);
+    height: 41px;
+    line-height: 50px;
+    overflow: hidden;
+    margin-left: 14px;
+  }
+  .shopping_list{
+    height: 130px;
+    border: 1px solid #EEEEEE;
+    border-bottom: none;
+    &:last-child{
+      border-bottom: 1px solid #EEEEEE;
+    }
+    &:hover{
+      background: #F9F9FC;
+    }
+    .el-checkbox{
+      float: left;
+      line-height: 130px;
+      margin-left: 27px;
+      margin-right: 10px;
+    }
+    .shopping_image{
+      float: left;
+      width: 100px;
+      height: 100px;
+      margin: 0 20px;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+    img{
+      max-width: 100px;
+      max-height: 100px;
+      object-fit: cover;
+      display: inline-block;
+    }
+    .shopping_name,.cover_shopping_name,.shopping_money,.shopping_number,.shopping_total,.shopping_reviewbtn,.shopping_list_name,.shopping_btn{
+      display: inline-block !important;
+      vertical-align: middle;
+      color: #333333;
+      line-height: 130px;
+    }
+    .shopping_name{
+      margin-right: 10px;
+      line-height: 20px;
+      width: 265px;
+      cursor: pointer;
+      font-size:14px;
+    }
+    .shopping_list_name{
+      width: 329px;
+      margin-right: 140px;
+      line-height: 22px;
+      margin-left: 20px;
+      max-height: 70px;
+      overflow: hidden;
+    }
+    .shopping_money{
+      width:140px;
+      text-align: center;
+      margin-right: 60px;
+      span{
+        line-height: 20px;
+        display: block;
+      }
+      .line_price{
+        text-decoration: line-through;
+        color: #ccc;
+      }
+    }
+    .shopping_number{
+      width: 140px;
+      text-align: center;
+      margin-right: 10px;
+    }
+    .shopping_total{
+      width:180px;
+      text-align: center;
+      margin-right: 20px;
+    }
+    .shopping_btn{
+      width: 120px;
+      text-align: center;
+      p{
+        margin-bottom: 10px;
+        line-height: 20px;
+        cursor: pointer;
+        &:last-child{
+          margin-bottom: 0;
+        }
+      }
+    }
+    .shopping_reviewbtn{
+      height: 30px;
+      width: 92px;
+      color: #1F77F2;
+      line-height: 30px;
+      text-align: center;
+      &:hover{
+        color: #fff;
+        background: #1F77F2;
+      }
+    }
+  }
+}
+.list_soldout{
+  background: #EEEEEE;
+  border-bottom: 1px solid #fff !important;
+  &:hover{
+    background: #EEEEEE !important;
+  }
+  .shopping_name,.cover_shopping_name,.shopping_money,.shopping_number,.shopping_total,.shopping_reviewbtn,.shopping_list_name,.shopping_btn{
+    color: #BBBBBB !important;
+  }
+  .shopping_soldtext{
+    width: 36px;
+    height: 16px;
+    line-height: 16px;
+    background: #FEE1CA;
+    color: #FA6104;
+    float: left;
+    margin-left: 14px;
+    margin-top: 57px;
+    text-align: center;
+    border-radius:2px;
+  }
+}
+
+.shopping_order{
+  color: #454545;
+  border: 1px solid #EEEEEE;
+  height: 60px;
+  line-height: 60px;
+  margin-top: 20px;
+  padding-left: 14px;
+  .shopping_collect,.shopping_delete{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .shopping_collect{
+    margin-left: 29px;
+    margin-right: 19px;
+  }
+  .shopping_orderinfo{
+    margin-top: 10px;
+    float: right;
+    text-align: center;
+    p{
+      line-height: 20px;
+    }
+    i{
+      font-style: normal;
+      color: #F44B4A;
+    }
+    .shopping_last_money{
+      font-weight: bold;
+    }
+  }
+  .shopping_bottom_btn{
+    float: right;
+    background: #F44B4A;
+    color: #fff;
+    font-size:18px;
+    font-weight:bold;
+    width: 110px;
+    height: 60px;
+    text-align: center;
+    margin-left: 30px;
+    cursor: pointer;
+  }
+}
+.shopping_recommend{
+  margin-top: 50px;
+  border: solid 1px #EEEEEE;
+  padding-top: 16px;
+  margin-bottom: 40px;
+  .shopping_recommend_title{
+    height: 25px;
+    line-height: 25px;
+    color: #333;
+    border-left: 5px solid #4990FB;
+    font-size:18px;
+    padding-left: 12px;
+  }
+  .personal_product{
+    overflow: hidden;
+    margin: 30px;
+    margin-bottom: 0;
+    .personal_icon{
+      width: 20px;
+      height: 40px;
+      margin-top: 100px;
+      display: inline-block;
+    }
+    .personal_list{
+      margin-right: 18px;
+      padding: 15px;
+      height: 240px;
+      float: left;
+      width:180px;
+      text-align: center;
+      margin-bottom: 20px;;
+      &:last-child{
+        margin-right: 0px;
+      }
+      .img{
+        width: 160px;
+        height: 150px;
+      }
+      .img_favorite{
+        float: right;
+        border: solid 1px #eee;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        margin-top: -30px;
+        background-image: url(../../../src/assets/images/shopping/shopping.png);
+        background-repeat: no-repeat;
+        background-position:6px 7px; 
+        cursor: pointer;
+      }
+      p{
+        color: #333333;
+        margin-top: 12px;
+        cursor: pointer;
+      }
+      .shopping_name{
+        height:36px;
+        font-size:14px;
+        width: 160px;
+        margin-right: 0;
+        margin-left: 10px;
+        text-align: left;
+      }
+      
+      .personal_moneytext{
+        color: #F44F4A;
+        text-align: left;
+      }
+      &:hover{
+        -moz-box-shadow: inset 0 0 10px #EEEEEE;
+        -webkit-box-shadow: inset 0 0 10px #EEEEEE;
+        box-shadow: inset 0 0 10px #EEEEEE;
+        .img_favorite{
+          background: #F44B4A;
+          background-image: url(../../../src/assets/images/shopping/shopping_hover.png);
+          background-repeat: no-repeat;
+          background-position:6px 7px; 
+        }
+      }
+    }
+  }
+  .personal_bottom{
+    height: 84px;
+    line-height: 84px;
+    background: #fff;
+    text-align: center;
+    span{
+      height: 10px;
+      width: 10px;
+      display: inline-block;
+      border-radius: 50%;
+      border: solid 1px #AAAAAA;
+      margin-right: 10px;
+    }
+    .personal_pointhover{
+      background: #AAAAAA;
+    }
+  }
+}
+.shopping_null{
+  height: 450px;
+  img{
+    float: left;
+    width:140px;
+    height: auto;
+    margin-left: 340px;
+    margin-top: 180px;
+  }
+  .info{
+    float: left;
+    margin-left: 20px;
+    margin-top: 220px;
+  }
+  p{
+    color: #999999;
+  }
+  span{
+    background: #4692FB;
+    color: #fff;
+    width: 100px;
+    border-radius:2px;
+    display: inline-block;
+    text-align: center;
+    line-height: 26px;
+    cursor: pointer;
+    margin-top: 17px;
+  }
+}
+
+.cover_shopping_name{
+  height:36px;
+  font-size:14px;
+  width: 400px;
+  margin-right: 0;
+  margin-left: 10px;
+  text-align: left;
+  line-height: 28px !important;
+}

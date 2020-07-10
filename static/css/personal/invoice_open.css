@@ -1,0 +1,47 @@
+.my_form_wrap {
+  padding: 0 30px 0 10px;
+}
+.my_form_wrap .invoice_type_tag {
+  border: 1px solid #F4494A;
+  color: #F4494A;
+  padding: 10px 16px;
+  font-size: 14px;
+  position: relative;
+}
+.my_form_wrap .invoice_type_tag .invoice_tag_good {
+  border-width: 8px;
+  border-style: solid;
+  border-color: #F4494A #F4494A transparent transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.my_form_wrap .invoice_type_tag .invoice_tag_good .el-icon-check {
+  font-size: 12px;
+  position: absolute;
+  color: #fff;
+  font-weight: bold;
+  top: -9px;
+  right: -10px;
+}
+.my_form_wrap .my-button-bar .el-button--primary {
+  background: #F4494A;
+  background-color: #F4494A;
+  border-color: #F4494A;
+}
+.my_form_wrap .my-button-bar .cancle-btn {
+  background-color: #EEEEEE !important;
+  color: #999999 !important;
+  border-color: #EEEEEE !important;
+}
+.bottom_tip {
+  background-color: #FDFBED;
+  padding: 10px;
+}
+.bottom_tip .invoice_detils {
+  text-decoration: underline;
+  color: #5698F1;
+}
+.bottom_tip p {
+  line-height: 24px;
+}
